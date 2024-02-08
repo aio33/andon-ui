@@ -12,4 +12,4 @@ flows.json.backup
 .config.nodes.json
 .config.runtime.json.backup
 .config.runtime.json
-./uibuilder/Andon/src/img/client
+./uibuilder/Andon/src/img/client/

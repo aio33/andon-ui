@@ -48,14 +48,6 @@
         "env": []
     },
     {
-        "id": "2d6b82b9a5cb448c",
-        "type": "tab",
-        "label": "Flux 1",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "2242055f905e7ed2",
         "type": "subflow",
         "name": "overview csv",
@@ -1019,14 +1011,12 @@
             "9a5c2575141ef306",
             "2bf4d97365c61296",
             "eceb0f47eb37f651",
-            "c46602cf2c25c0c9",
-            "6a41de61955614ab",
-            "dcc53bff9afbcb87"
+            "c46602cf2c25c0c9"
         ],
         "x": 1974,
-        "y": 159,
+        "y": 179,
         "w": 1412,
-        "h": 2062
+        "h": 2042
     },
     {
         "id": "4e82a31b300de3bc",
@@ -1198,32 +1188,7 @@
             "b86147e49feac2a0"
         ],
         "x": 214,
-        "y": 99,
-        "w": 512,
-        "h": 1242
-    },
-    {
-        "id": "326c6e6960ce2986",
-        "type": "group",
-        "z": "2d6b82b9a5cb448c",
-        "name": "",
-        "style": {
-            "stroke": "#ffC000",
-            "label": true
-        },
-        "nodes": [
-            "4f403d1f437fd361",
-            "182d3f999f4998d5",
-            "7bac00174b652a5c",
-            "2fe37e395f89c335",
-            "18c0dee48925cf19",
-            "2b5b7343fe495928",
-            "20974b60a6c399d7",
-            "65193c348c5d7a28",
-            "0eb13842107b0770"
-        ],
-        "x": 104,
-        "y": 179
+        "y": 99
     },
     {
         "id": "9abff5a2ebc4fa54",
@@ -1257,9 +1222,7 @@
             "1eab3703f0d326bf"
         ],
         "x": 454,
-        "y": 99,
-        "w": 2372,
-        "h": 282
+        "y": 99
     },
     {
         "id": "7755e985c66b4523",
@@ -8699,8 +8662,8 @@
             "ae37488617b90d19",
             "f445ac392e4e0b48"
         ],
-        "x": 2385,
-        "y": 200,
+        "x": 2345,
+        "y": 260,
         "wires": [
             [
                 "1fb96b324a728f3a"
@@ -9319,51 +9282,6 @@
         "x": 1550,
         "y": 1160,
         "wires": []
-    },
-    {
-        "id": "6a41de61955614ab",
-        "type": "link in",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "ui-on-out-0",
-        "links": [
-            "706c3df02ca5a46f"
-        ],
-        "x": 2065,
-        "y": 260,
-        "wires": [
-            [
-                "dcc53bff9afbcb87"
-            ]
-        ]
-    },
-    {
-        "id": "dcc53bff9afbcb87",
-        "type": "change",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "buttonPressed",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2190,
-        "y": 260,
-        "wires": [
-            [
-                "18b28cc1bb01dbf6"
-            ]
-        ]
     },
     {
         "id": "3a6089a623cc49c1",
@@ -18133,382 +18051,5 @@
         "x": 1345,
         "y": 100,
         "wires": []
-    },
-    {
-        "id": "4f403d1f437fd361",
-        "type": "inject",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 220,
-        "wires": [
-            [
-                "182d3f999f4998d5"
-            ]
-        ]
-    },
-    {
-        "id": "182d3f999f4998d5",
-        "type": "http request",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.csv",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "x": 430,
-        "y": 220,
-        "wires": [
-            [
-                "7bac00174b652a5c",
-                "2c3b1349686bb1e2"
-            ]
-        ]
-    },
-    {
-        "id": "7bac00174b652a5c",
-        "type": "switch",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "property": "payload.mag",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "7",
-                "vt": "num"
-            },
-            {
-                "t": "lt",
-                "v": "7",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 630,
-        "y": 220,
-        "wires": [
-            [
-                "20974b60a6c399d7"
-            ],
-            [
-                "65193c348c5d7a28"
-            ]
-        ]
-    },
-    {
-        "id": "2fe37e395f89c335",
-        "type": "change",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "hight !!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1000,
-        "y": 220,
-        "wires": [
-            [
-                "18c0dee48925cf19"
-            ]
-        ]
-    },
-    {
-        "id": "18c0dee48925cf19",
-        "type": "debug",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1170,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "2b5b7343fe495928",
-        "type": "debug",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "debug 11",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1170,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "20974b60a6c399d7",
-        "type": "delay",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": true,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 810,
-        "y": 220,
-        "wires": [
-            [
-                "2fe37e395f89c335"
-            ]
-        ]
-    },
-    {
-        "id": "65193c348c5d7a28",
-        "type": "delay",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": true,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 810,
-        "y": 280,
-        "wires": [
-            [
-                "0eb13842107b0770"
-            ]
-        ]
-    },
-    {
-        "id": "0eb13842107b0770",
-        "type": "change",
-        "z": "2d6b82b9a5cb448c",
-        "g": "326c6e6960ce2986",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "down !!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1000,
-        "y": 280,
-        "wires": [
-            [
-                "2b5b7343fe495928"
-            ]
-        ]
-    },
-    {
-        "id": "44c3b40111415558",
-        "type": "http request",
-        "z": "2d6b82b9a5cb448c",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://apicarto.ign.fr/api/codes-postaux/communes/{{{topic}}}",
-        "tls": "75e8178ac4a0d228",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "x": 450,
-        "y": 480,
-        "wires": [
-            [
-                "135eb525a4ddc598"
-            ]
-        ]
-    },
-    {
-        "id": "307dd377997b09b7",
-        "type": "inject",
-        "z": "2d6b82b9a5cb448c",
-        "name": "Insert CP 01000",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "01000",
-        "x": 240,
-        "y": 420,
-        "wires": [
-            [
-                "44c3b40111415558"
-            ]
-        ]
-    },
-    {
-        "id": "d0240f181fb74641",
-        "type": "inject",
-        "z": "2d6b82b9a5cb448c",
-        "name": "Insert CP 70500",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "70500",
-        "x": 240,
-        "y": 480,
-        "wires": [
-            [
-                "44c3b40111415558"
-            ]
-        ]
-    },
-    {
-        "id": "2bab749dcc6ab76b",
-        "type": "inject",
-        "z": "2d6b82b9a5cb448c",
-        "name": "Insert CP 48500",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "48500",
-        "x": 240,
-        "y": 540,
-        "wires": [
-            [
-                "44c3b40111415558"
-            ]
-        ]
-    },
-    {
-        "id": "135eb525a4ddc598",
-        "type": "debug",
-        "z": "2d6b82b9a5cb448c",
-        "name": "debug 13",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 680,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "2c3b1349686bb1e2",
-        "type": "debug",
-        "z": "2d6b82b9a5cb448c",
-        "name": "debug 14",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 620,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "ab40784c09b1ccd5",
-        "type": "function",
-        "z": "2d6b82b9a5cb448c",
-        "name": "Check if Id is already learn ",
-        "func": "var postes = global.get('postes') || [];\nvar currentId = msg.meta.senderId;\nmsg.isAlreadyLearn = false;\npostes.forEach(function(poste) {\n    if (poste && poste.id && currentId === poste.id ) {\n        msg.isAlreadyLearn = true;\n        var posteName = poste.name\n        msg.payload = \"This button is already assigned to \" + posteName\n    }\n});\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 475.8833312988281,
-        "y": 666.88330078125,
-        "wires": [
-            []
-        ]
     }
 ]
