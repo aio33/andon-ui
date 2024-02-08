@@ -1,0 +1,12 @@
+tableau des andons level
+,S1,S2,S3,S4,S5
+poste1,0,0,0,0,0
+poste2,0,0,0,0,0
+poste3,0,0,0,0,0
+poste4,0,0,0,0,0
+tableau des andons (level 1 + 2)
+,S1,S2,S3,S4,S5
+poste1,0,0,0,0,1
+poste2,0,0,0,1,0
+poste3,0,0,1,0,0
+poste4,2,0,0,0,2

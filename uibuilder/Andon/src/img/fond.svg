@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-TAKT_TIME_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="TAKT_TIME_1" data-name="TAKT TIME – 1" clip-path="url(#clip-TAKT_TIME_1)">
+    <rect width="1920" height="1080" fill="#f1f1f1"/>
+    <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(-32 -289)" fill="#fff" stroke="#e4e4e4" stroke-width="1">
+      <circle cx="992" cy="992" r="992" stroke="none"/>
+      <circle cx="992" cy="992" r="991.5" fill="none"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(193 -64)" fill="#f1f1f1" stroke="#e4e4e4" stroke-width="1">
+      <circle cx="767" cy="767" r="767" stroke="none"/>
+      <circle cx="767" cy="767" r="766.5" fill="none"/>
+    </g>
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(422 165)" fill="#fff" stroke="#e4e4e4" stroke-width="1">
+      <circle cx="538" cy="538" r="538" stroke="none"/>
+      <circle cx="538" cy="538" r="537.5" fill="none"/>
+    </g>
+  </g>
+</svg>

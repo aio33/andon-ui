@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000109748697241389802140000006817462219358041769_);}
+	.st1{fill:#F1F1F1;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:none;stroke:#E4E4E4;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#32297A;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#7AC3BE;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1920" height="1080"/>
+	</defs>
+	<clipPath id="SVGID_00000076603821431956145830000003796768267990315710_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="TAKT_TIME_1" style="clip-path:url(#SVGID_00000076603821431956145830000003796768267990315710_);">
+		<rect class="st1" width="1920" height="1080"/>
+		<g id="Ellipse_18" transform="translate(-32 -289)">
+			<circle class="st2" cx="992" cy="992" r="992"/>
+			<circle class="st3" cx="992" cy="992" r="991.5"/>
+		</g>
+		<g id="Ellipse_17" transform="translate(193 -64)">
+			<circle class="st1" cx="767" cy="767" r="767"/>
+			<circle class="st3" cx="767" cy="767" r="766.5"/>
+		</g>
+		<g id="Ellipse_16" transform="translate(422 165)">
+			<circle class="st2" cx="538" cy="538" r="538"/>
+			<circle class="st3" cx="538" cy="538" r="537.5"/>
+		</g>
+	</g>
+</g>
+<polygon class="st4" points="185.7,92.5 161.7,92.5 161.7,78.9 154,79.8 154,113.7 161.7,114.6 161.7,99.3 185.7,99.3 185.7,114.6 
+	193.4,113.7 193.4,79.8 185.7,78.8 185.7,92.5 "/>
+<g>
+	<path class="st4" d="M299.9,107v6.3c-11.9,2.4-23.7,2.4-35.3,0V79.6h8.4V107H299.9L299.9,107z"/>
+	<path class="st4" d="M95.7,79.6c13.9-2.3,27.7-2.3,41.5,0v6h-16.6v27.6h-8.4V85.6H95.7V79.6L95.7,79.6z"/>
+	<path class="st4" d="M350.1,107v6.3c-12.5,2.4-25,2.4-37.2,0V79.6c12.3-2.3,24.5-2.3,36.8,0v6h-28.3v6.8h16.5v6.7h-16.5v7.8H350.1
+		L350.1,107z"/>
+	<path class="st5" d="M234.8,102.9c0,1.6-0.6,3-1.7,4.2c-1.2,1.1-2.7,1.7-4.3,1.7c-1.6,0-2.9-0.6-4.2-1.7c-1.1-1.1-1.7-2.6-1.7-4.2
+		c0-1.6,0.6-3,1.7-4.2c1.1-1.2,2.6-1.8,4.2-1.8c1.6,0,3,0.6,4.3,1.8C234.2,99.9,234.8,101.3,234.8,102.9L234.8,102.9z"/>
+	<polygon class="st4" points="228.9,86.1 244.3,114.3 252.7,113.3 248.8,106.5 248.7,106.4 233.1,79.6 225.4,79.6 206,113.3 
+		213.5,114.2 226.6,90.2 226.7,90.1 228.9,86.1 	"/>
+	<path class="st4" d="M370.2,92.8v-7.1H401v-6c-5.7-1-11.8-1.6-18.1-1.5c-6,0-11.1,0.6-15.6,1.8c-1.6,0.5-2.9,1.2-3.5,2.4
+		c-0.7,1.1-1,2.9-1,5.3v3.7c0,3.1,0.7,5.2,2,6.4c1.2,1,3.6,1.6,7,1.6h22.2v7.7h-31.3v6.3l20.1,1.6v-0.1c5,0,9.8-0.7,14.3-1.9
+		c1.6-0.4,2.8-1.1,3.4-2.4c0.7-1.1,1-2.9,1-5.2v-4.6c0-3.1-0.7-5.2-1.9-6.4c-1.2-1-3.5-1.6-7-1.6H370.2L370.2,92.8z"/>
+</g>
+</svg>

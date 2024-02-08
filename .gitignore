@@ -1,1 +1,15 @@
-*.backup
+/node_modules
+/context
+andon.csv
+overview.csv
+synthese.csv
+flows.json.backup
+.flows.json.backup
+.flows_cred.json.backup
+.config.users.json.backup
+.config.users.json
+.config.nodes.json.backup
+.config.nodes.json
+.config.runtime.json.backup
+.config.runtime.json
+./uibuilder/Andon/src/img/client
