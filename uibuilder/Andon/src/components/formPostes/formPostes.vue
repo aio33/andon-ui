@@ -19,13 +19,6 @@
             <div id="alert-success-off">
                 <b-alert show variant="success">Bouton stop succefully</b-alert>
             </div>
-
-            <a class="config-link " href="/Andon/#/home" target="">
-                <div class="logo-home"></div>
-            </a>
-            <a class="form-link " href="/Andon/#/formPhonesMails" target="">
-                <div class="logo-form"></div>
-            </a>
         </div>
 
         <div class="d-flex justify-content-between mb-3">
@@ -52,8 +45,6 @@
         <div class="postes-container">
             <div class="form-title row">
                 <h1 class="col col-border">NAME</h1>
-                <h1 class="col">VIEW</h1>
-                <h1 class="col">COUNT</h1>
                 <h1 class="col">BUTTON</h1>
                 <h1 class="col">CONTROL</h1>
             </div>
@@ -62,16 +53,6 @@
                 <div class="row">
                     <div class="col col-flex col-border">
                         <b-form-input v-model="postes[index].name" id="nested-name"></b-form-input>
-                    </div>
-                    <div class="col">
-                        <button :class="{
-                            'enable': postes[index].isEnable,
-                            'disable': postes[index].isEnable === false
-                        }" @click="sendEnable(index)" :disabled="shouldDisableEnableButton(index)"></button>
-                    </div>
-                    <div class="col">
-                        <button class="btn btn-primary poste-btn" @click="resetCount(index)"
-                            variant="outline-secondary">RESET</button>
                     </div>
                     <div class="col">
                         <button class="btn btn-primary poste-btn" @click="sendLearnStatus(index)"
@@ -92,12 +73,6 @@
             <div class="row">
                 <div class="col col-flex col-border"></div>
                 <div class="col"></div>
-                <div class="col">
-                    <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary poste-btn" @click="resetAll()" variant="outline-secondary">
-                            RESET ALL</button>
-                    </div>
-                </div>
                 <div class="col"></div>
                 <div class="col">
                     <div class="submit-container">
@@ -109,20 +84,6 @@
     </div>
 </template>
 <style scoped>
-.form-link {
-    position: absolute;
-    right: 125px;
-    top: 15px;
-}
-
-
-.logo-form {
-    background-image: url('../../img/envelope-solid.svg');
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    filter: invert(1) brightness(0.33);
-}
 
 .header-form {
     height: 8.5vh;
@@ -143,20 +104,6 @@
     padding-top: 0px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif !important;
     color: #535353;
-}
-
-.config-link {
-    position: absolute;
-    right: 50px;
-    top: 15px;
-}
-
-.logo-home {
-    background-image: url('../../img/house-solid.svg');
-    background-size: cover;
-    height: 40px;
-    width: 45px;
-    filter: invert(1) brightness(0.33);
 }
 
 .postes-container {
@@ -497,28 +444,9 @@ module.exports = {
         shouldDisableControlButton(index) {
             return this.postes[index].isEnable === false || this.postes[index].id == undefined || this.postes[index].isLearning
         },
-        shouldDisableEnableButton(index) {
-            return this.postes[index].status !== "off"
-        },
+    
         shouldDisableDelButton() {
             return this.areDelButtonsDisable
-        },
-        async resetCount(index) {
-            this.postes[index].count = 0
-            this.postes[index].isResetInactive = false
-            async function delay(ms) {
-                return new Promise(resolve => setTimeout(resolve, ms));
-            }
-            await delay(2000);
-            this.postes[index].isResetInactive = true;
-            uibuilder.send({
-                'topic': 'setGlobalVariable',
-                'payload': {
-                    'postes': this.postes,
-                    'lineName': this.lineName,
-                    'takTime': parseFloat(this.takTime)
-                }
-            })
         },
         sendLearnStatus(index) {
             this.selectedLearnIndex = index
@@ -582,26 +510,11 @@ module.exports = {
                 }
             })
         },
-        sendEnable(index) {
-            this.postes[index].isEnable = !this.postes[index].isEnable;
-            uibuilder.send({
-                'topic': 'updatePostes',
-                'payload': {
-                    'postes': this.postes,
-                    'lineName': this.lineName,
-                    'takTime': parseFloat(this.takTime)
-                }
-            })
-        },
+
         isCheckboxChecked(index) {
             var status = this.postes[index].status;
             return status === 'level1' || status === 'level2';
         },
-        resetAll() {
-            uibuilder.send({
-                'topic': 'resetAll',
-            })
-        }
     },
 
 }
