@@ -27121,7 +27121,25 @@
         "x": 475.8833312988281,
         "y": 666.88330078125,
         "wires": [
-            []
+            [
+                "d1e85c9c6d8dcbc7"
+            ]
         ]
+    },
+    {
+        "id": "d1e85c9c6d8dcbc7",
+        "type": "debug",
+        "z": "32c216766ca4496d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 200,
+        "wires": []
     }
 ]
