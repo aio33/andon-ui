@@ -1403,161 +1403,6 @@
         "y": 2139
     },
     {
-        "id": "7755e985c66b4523",
-        "type": "group",
-        "z": "62319ca4c703e31b",
-        "name": "",
-        "style": {
-            "stroke": "#ffdf7f",
-            "label": true
-        },
-        "nodes": [
-            "3f4c124e42161783",
-            "3a6089a623cc49c1",
-            "8584c8d58c4142de",
-            "09d36d7634251a2d",
-            "6528c887b5afbb30",
-            "ec9ea18d32f0b5d7",
-            "cf82be1e4168dbd1",
-            "db32a6a7b07d4ceb",
-            "4247789fafb1a8b4",
-            "b48c95c28befaf30",
-            "39dad015af45d118",
-            "94c3e49698ca00ab",
-            "63f757a5543ffd02",
-            "58e9d1949c2999eb",
-            "4ee86baec5e1122f",
-            "f7895a40ff209cd5",
-            "7bf45ea0713922aa",
-            "17e786bdb18d2f28",
-            "a1c0ccbff3050db1",
-            "7534457d69477606",
-            "2613733c108b4557",
-            "c8caf5ce6b83a327",
-            "d3cefc84f7422b31",
-            "111886ca76501d73",
-            "268e0bd2dd6469af",
-            "afa685473dfe6f5e",
-            "723de0c4591327bf",
-            "327cb6f52b73e65f",
-            "b26b2b92b0be3bea",
-            "463fc38244f6065b",
-            "9df7415dc7d5b391",
-            "9a9c1501.534708",
-            "ede21fb4d60fcc44",
-            "2210fbec7def7fe5",
-            "4f82e73e89f77f37",
-            "313844b00761fc7e",
-            "bd4495cd1f5b29ad",
-            "631a757bc6a71a93",
-            "925e7c798f72816a",
-            "977b08c71df15bc7",
-            "2476a574a5295a7e"
-        ],
-        "x": 68,
-        "y": 53
-    },
-    {
-        "id": "5be3070911b62ddc",
-        "type": "group",
-        "z": "62319ca4c703e31b",
-        "name": "",
-        "style": {
-            "stroke": "#ffdf7f",
-            "label": true
-        },
-        "nodes": [
-            "2cf3beb61716156e",
-            "c29e3be0c63364bd",
-            "710843e77177f38a",
-            "3ed527fc363ee3d8",
-            "1df3245b92e5c2ab",
-            "2de243fd5c5ab17d",
-            "175158d979600eda",
-            "2990d9e1425e2609",
-            "f3b1f9449459367c",
-            "61cfb77ae1b2d9c6",
-            "7aff4bbffae06625",
-            "19330e3f01a51f2e",
-            "b58588463abb8aec",
-            "62bf9a57599de4a6",
-            "cb26ee07fb1c6261",
-            "fad2deab07b4acb1",
-            "2993cf7c5c473bfe",
-            "2d5f939135e8aafa",
-            "5eae4be4b8e4eed4",
-            "92f27d8f9d991131",
-            "465fa150624e1426",
-            "b09df5feb69c12a2",
-            "74c0d8044e63a8d0",
-            "7771dbeefccbcf86"
-        ],
-        "x": 94,
-        "y": 799
-    },
-    {
-        "id": "0a6dd317746a90d8",
-        "type": "group",
-        "z": "62319ca4c703e31b",
-        "name": "",
-        "style": {
-            "stroke": "#ffdf7f",
-            "label": true
-        },
-        "nodes": [
-            "1f3aa5b110e9b770",
-            "6f70fb330f079953",
-            "32272f0c143e083f",
-            "243205590bea155d",
-            "25cebe7222e2cf1c",
-            "2da25e6cf133c3d3",
-            "f07c4c3c0ccc3c75",
-            "9c2f9ad34c3308d3",
-            "9410e26ff29a6856",
-            "c659ec51373bad73",
-            "95e05405d60e2cb7",
-            "022019d2b3ebe8d6",
-            "20b2d09e9eaad9ea",
-            "7424f2a8aa79d596",
-            "0a5a4edddf1d036a",
-            "a11affb8a8086a08",
-            "42d4f24cf0c94df8",
-            "a37c910260484015",
-            "744a2010c3cfa4e6",
-            "9054a65c3384c0c9",
-            "f2d98a49a2dc2049",
-            "b3bb0055149a1ef6",
-            "68f5f6f09caeac7f",
-            "12f1527e8f95d67e",
-            "4a183ce5c1d2781d",
-            "fbd6e69f5996ae32",
-            "8a839830cdbcf65e",
-            "1d265c6714c44e6e",
-            "c329b5487f44275f",
-            "d4253e883babfae2",
-            "1c4ba5a71da90197",
-            "b649f0f73320a474",
-            "946b4f50f640095c",
-            "0a38a7545c6413a4",
-            "36aea38e28b71719",
-            "98a2754583e7de98",
-            "3141692a4ee8be80",
-            "ea736a640d0ed8cf",
-            "21feb4313d1113a3",
-            "043ee6cadc7d53cc",
-            "397a86b503fd91d0",
-            "7d0d79e7fe847508",
-            "c6419f3434168a24",
-            "fbce85ae921510ab",
-            "250fec05957d8e37",
-            "47699483f7268530",
-            "e763b4064372c910",
-            "e39d174aaba619c9"
-        ],
-        "x": 84,
-        "y": 1179
-    },
-    {
         "id": "8f2dcb6df9878af5",
         "type": "group",
         "z": "c58cdff229d26d92",
@@ -1667,29 +1512,65 @@
             "1eab3703f0d326bf"
         ],
         "x": 454,
-        "y": 99
+        "y": 99,
+        "w": 2372,
+        "h": 282
     },
     {
-        "id": "313844b00761fc7e",
+        "id": "7755e985c66b4523",
         "type": "group",
         "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
         "name": "",
         "style": {
-            "stroke": "#ffcf3f",
+            "stroke": "#ffdf7f",
             "label": true
         },
         "nodes": [
-            "8b522635f044abd5",
-            "6e9d08c68280e009",
-            "1c5fde4e88f742ba",
-            "4d0897a81d729c5a",
-            "1b34c4b16b3d2ae6",
-            "971aa1ed046ffd84",
-            "461022372839f55d"
+            "3a6089a623cc49c1",
+            "8584c8d58c4142de",
+            "db32a6a7b07d4ceb",
+            "4ee86baec5e1122f",
+            "f7895a40ff209cd5",
+            "7bf45ea0713922aa",
+            "17e786bdb18d2f28",
+            "a1c0ccbff3050db1",
+            "7534457d69477606",
+            "2613733c108b4557",
+            "c8caf5ce6b83a327",
+            "d3cefc84f7422b31",
+            "111886ca76501d73",
+            "268e0bd2dd6469af",
+            "afa685473dfe6f5e",
+            "723de0c4591327bf",
+            "327cb6f52b73e65f",
+            "9a9c1501.534708",
+            "ede21fb4d60fcc44",
+            "2210fbec7def7fe5",
+            "4f82e73e89f77f37",
+            "bd4495cd1f5b29ad",
+            "631a757bc6a71a93",
+            "925e7c798f72816a",
+            "977b08c71df15bc7",
+            "3f4c124e42161783",
+            "09d36d7634251a2d",
+            "6528c887b5afbb30",
+            "ec9ea18d32f0b5d7",
+            "cf82be1e4168dbd1",
+            "4247789fafb1a8b4",
+            "b48c95c28befaf30",
+            "39dad015af45d118",
+            "94c3e49698ca00ab",
+            "63f757a5543ffd02",
+            "58e9d1949c2999eb",
+            "b26b2b92b0be3bea",
+            "463fc38244f6065b",
+            "9df7415dc7d5b391",
+            "2476a574a5295a7e"
         ],
         "x": 94,
-        "y": 79
+        "y": 259,
+        "w": 2012,
+        "h": 429.5
     },
     {
         "id": "cd7adfa5108867af",
@@ -10576,35 +10457,6 @@
         ]
     },
     {
-        "id": "3f4c124e42161783",
-        "type": "ui_button",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "group": "87e414bbb217edd6",
-        "order": 6,
-        "width": 2,
-        "height": 1,
-        "passthru": false,
-        "label": "Modif",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 190,
-        "y": 400,
-        "wires": [
-            [
-                "63f757a5543ffd02"
-            ]
-        ]
-    },
-    {
         "id": "3a6089a623cc49c1",
         "type": "e-mail",
         "z": "62319ca4c703e31b",
@@ -10649,118 +10501,6 @@
         ]
     },
     {
-        "id": "09d36d7634251a2d",
-        "type": "moment",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "topic": "",
-        "input": "",
-        "inputType": "date",
-        "inTz": "Europe/Paris",
-        "adjAmount": 0,
-        "adjType": "days",
-        "adjDir": "add",
-        "format": "dddd",
-        "locale": "en-EN",
-        "output": "day",
-        "outputType": "msg",
-        "outTz": "Europe/Paris",
-        "x": 780,
-        "y": 520,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "6528c887b5afbb30",
-        "type": "moment",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "topic": "",
-        "input": "",
-        "inputType": "date",
-        "inTz": "Europe/Paris",
-        "adjAmount": 0,
-        "adjType": "days",
-        "adjDir": "add",
-        "format": "HH:mm:ss",
-        "locale": "",
-        "output": "time",
-        "outputType": "global",
-        "outTz": "Europe/Paris",
-        "x": 780,
-        "y": 580,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "ec9ea18d32f0b5d7",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 570,
-        "y": 520,
-        "wires": [
-            [
-                "09d36d7634251a2d"
-            ]
-        ]
-    },
-    {
-        "id": "cf82be1e4168dbd1",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 570,
-        "y": 580,
-        "wires": [
-            [
-                "6528c887b5afbb30"
-            ]
-        ]
-    },
-    {
         "id": "db32a6a7b07d4ceb",
         "type": "switch",
         "z": "62319ca4c703e31b",
@@ -10785,206 +10525,6 @@
                 "9a9c1501.534708",
                 "327cb6f52b73e65f",
                 "bd4495cd1f5b29ad"
-            ]
-        ]
-    },
-    {
-        "id": "4247789fafb1a8b4",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "label": "Hour ( HH:MM:SS )",
-        "tooltip": "",
-        "group": "87e414bbb217edd6",
-        "order": 3,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 570,
-        "y": 380,
-        "wires": [
-            [
-                "39dad015af45d118"
-            ]
-        ]
-    },
-    {
-        "id": "b48c95c28befaf30",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "myday",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 440,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "39dad015af45d118",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mytime",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 380,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "94c3e49698ca00ab",
-        "type": "ui_dropdown",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "label": "Day",
-        "tooltip": "",
-        "place": "Select option",
-        "group": "87e414bbb217edd6",
-        "order": 1,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "Monday",
-                "value": "Monday",
-                "type": "str"
-            },
-            {
-                "label": "Tuesday",
-                "value": "Tuesday",
-                "type": "str"
-            },
-            {
-                "label": "Wednesday",
-                "value": "Wednesday",
-                "type": "str"
-            },
-            {
-                "label": "Thursday",
-                "value": "Thursday",
-                "type": "str"
-            },
-            {
-                "label": "Friday",
-                "value": "Friday",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 530,
-        "y": 440,
-        "wires": [
-            [
-                "b48c95c28befaf30"
-            ]
-        ]
-    },
-    {
-        "id": "63f757a5543ffd02",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            },
-            {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 360,
-        "y": 420,
-        "wires": [
-            [
-                "4247789fafb1a8b4",
-                "94c3e49698ca00ab"
-            ]
-        ]
-    },
-    {
-        "id": "58e9d1949c2999eb",
-        "type": "ui_button",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "group": "87e414bbb217edd6",
-        "order": 5,
-        "width": 2,
-        "height": 1,
-        "passthru": false,
-        "label": "Submit",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 180,
-        "y": 440,
-        "wires": [
-            [
-                "63f757a5543ffd02"
             ]
         ]
     },
@@ -11023,163 +10563,6 @@
         "x": 2030,
         "y": 500,
         "wires": []
-    },
-    {
-        "id": "2cf3beb61716156e",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Check mail 1",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 3,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 930,
-        "y": 840,
-        "wires": [
-            [
-                "61cfb77ae1b2d9c6"
-            ]
-        ]
-    },
-    {
-        "id": "c29e3be0c63364bd",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Check mail 2",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 7,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 930,
-        "y": 900,
-        "wires": [
-            [
-                "3ed527fc363ee3d8"
-            ]
-        ]
-    },
-    {
-        "id": "710843e77177f38a",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Check mail 3 ",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 11,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 930,
-        "y": 960,
-        "wires": [
-            [
-                "1df3245b92e5c2ab"
-            ]
-        ]
-    },
-    {
-        "id": "3ed527fc363ee3d8",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail2status",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1140,
-        "y": 900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1df3245b92e5c2ab",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail3status",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1140,
-        "y": 960,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "7bf45ea0713922aa",
@@ -11254,67 +10637,6 @@
         ]
     },
     {
-        "id": "2de243fd5c5ab17d",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Check mail 4",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 15,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 930,
-        "y": 1020,
-        "wires": [
-            [
-                "175158d979600eda"
-            ]
-        ]
-    },
-    {
-        "id": "175158d979600eda",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail4status",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1140,
-        "y": 1020,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "7534457d69477606",
         "type": "e-mail",
         "z": "62319ca4c703e31b",
@@ -11354,84 +10676,6 @@
             [
                 "723de0c4591327bf"
             ]
-        ]
-    },
-    {
-        "id": "2990d9e1425e2609",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail1",
-        "payloadType": "global",
-        "x": 210,
-        "y": 840,
-        "wires": [
-            [
-                "cb26ee07fb1c6261"
-            ]
-        ]
-    },
-    {
-        "id": "f3b1f9449459367c",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail1",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 840,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "61cfb77ae1b2d9c6",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail1status",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1140,
-        "y": 840,
-        "wires": [
-            []
         ]
     },
     {
@@ -11711,1765 +10955,6 @@
         ]
     },
     {
-        "id": "1f3aa5b110e9b770",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.1.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 770,
-        "y": 1220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6f70fb330f079953",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-j-1",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 3,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1220,
-        "wires": [
-            [
-                "32272f0c143e083f"
-            ]
-        ]
-    },
-    {
-        "id": "32272f0c143e083f",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.1.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 1220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "243205590bea155d",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-j-2",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 7,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1280,
-        "wires": [
-            [
-                "7d0d79e7fe847508"
-            ]
-        ]
-    },
-    {
-        "id": "25cebe7222e2cf1c",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-j-3",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 11,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1340,
-        "wires": [
-            [
-                "c6419f3434168a24"
-            ]
-        ]
-    },
-    {
-        "id": "2da25e6cf133c3d3",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-j-4",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 15,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1400,
-        "wires": [
-            [
-                "fbce85ae921510ab"
-            ]
-        ]
-    },
-    {
-        "id": "f07c4c3c0ccc3c75",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-r-1",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 3,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1500,
-        "wires": [
-            [
-                "9c2f9ad34c3308d3"
-            ]
-        ]
-    },
-    {
-        "id": "9c2f9ad34c3308d3",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.1.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1460,
-        "y": 1500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9410e26ff29a6856",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-r-2",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 7,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1560,
-        "wires": [
-            [
-                "c659ec51373bad73"
-            ]
-        ]
-    },
-    {
-        "id": "c659ec51373bad73",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.2.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1460,
-        "y": 1560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "95e05405d60e2cb7",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-r-3",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 11,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1620,
-        "wires": [
-            [
-                "022019d2b3ebe8d6"
-            ]
-        ]
-    },
-    {
-        "id": "022019d2b3ebe8d6",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.3.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1460,
-        "y": 1620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "20b2d09e9eaad9ea",
-        "type": "ui_switch",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "sw-r-4",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 15,
-        "width": 1,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1240,
-        "y": 1680,
-        "wires": [
-            [
-                "7424f2a8aa79d596"
-            ]
-        ]
-    },
-    {
-        "id": "7424f2a8aa79d596",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.4.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1460,
-        "y": 1680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0a5a4edddf1d036a",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.1.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1220,
-        "wires": [
-            [
-                "6f70fb330f079953"
-            ]
-        ]
-    },
-    {
-        "id": "7aff4bbffae06625",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail1status",
-        "payloadType": "global",
-        "x": 760,
-        "y": 840,
-        "wires": [
-            [
-                "2cf3beb61716156e"
-            ]
-        ]
-    },
-    {
-        "id": "19330e3f01a51f2e",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail2status",
-        "payloadType": "global",
-        "x": 760,
-        "y": 900,
-        "wires": [
-            [
-                "c29e3be0c63364bd"
-            ]
-        ]
-    },
-    {
-        "id": "b58588463abb8aec",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail3status",
-        "payloadType": "global",
-        "x": 760,
-        "y": 960,
-        "wires": [
-            [
-                "710843e77177f38a"
-            ]
-        ]
-    },
-    {
-        "id": "62bf9a57599de4a6",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail4status",
-        "payloadType": "global",
-        "x": 760,
-        "y": 1020,
-        "wires": [
-            [
-                "2de243fd5c5ab17d"
-            ]
-        ]
-    },
-    {
-        "id": "a11affb8a8086a08",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Yellow phone 1",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 510,
-        "y": 1220,
-        "wires": [
-            [
-                "1f3aa5b110e9b770"
-            ]
-        ]
-    },
-    {
-        "id": "42d4f24cf0c94df8",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Yellow phone 2",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 5,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 510,
-        "y": 1280,
-        "wires": [
-            [
-                "12f1527e8f95d67e"
-            ]
-        ]
-    },
-    {
-        "id": "a37c910260484015",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.2.number",
-        "payloadType": "global",
-        "x": 260,
-        "y": 1280,
-        "wires": [
-            [
-                "42d4f24cf0c94df8"
-            ]
-        ]
-    },
-    {
-        "id": "744a2010c3cfa4e6",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Yellow phone 3",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 9,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 510,
-        "y": 1340,
-        "wires": [
-            [
-                "4a183ce5c1d2781d"
-            ]
-        ]
-    },
-    {
-        "id": "9054a65c3384c0c9",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Yellow phone 4",
-        "label": "",
-        "tooltip": "",
-        "group": "0356d78e8132a856",
-        "order": 13,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 510,
-        "y": 1400,
-        "wires": [
-            [
-                "fbd6e69f5996ae32"
-            ]
-        ]
-    },
-    {
-        "id": "f2d98a49a2dc2049",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.1.number",
-        "payloadType": "global",
-        "x": 260,
-        "y": 1220,
-        "wires": [
-            [
-                "a11affb8a8086a08"
-            ]
-        ]
-    },
-    {
-        "id": "b3bb0055149a1ef6",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.3.number",
-        "payloadType": "global",
-        "x": 260,
-        "y": 1340,
-        "wires": [
-            [
-                "744a2010c3cfa4e6"
-            ]
-        ]
-    },
-    {
-        "id": "68f5f6f09caeac7f",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.4.number",
-        "payloadType": "global",
-        "x": 260,
-        "y": 1400,
-        "wires": [
-            [
-                "9054a65c3384c0c9"
-            ]
-        ]
-    },
-    {
-        "id": "12f1527e8f95d67e",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.2.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 770,
-        "y": 1280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4a183ce5c1d2781d",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.3.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 770,
-        "y": 1340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fbd6e69f5996ae32",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.4.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 770,
-        "y": 1400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8a839830cdbcf65e",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.1.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 720,
-        "y": 1500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1d265c6714c44e6e",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Red phone 1",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 480,
-        "y": 1500,
-        "wires": [
-            [
-                "8a839830cdbcf65e"
-            ]
-        ]
-    },
-    {
-        "id": "c329b5487f44275f",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Red phone 2",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 5,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 480,
-        "y": 1560,
-        "wires": [
-            [
-                "98a2754583e7de98"
-            ]
-        ]
-    },
-    {
-        "id": "d4253e883babfae2",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.2.number",
-        "payloadType": "global",
-        "x": 250,
-        "y": 1560,
-        "wires": [
-            [
-                "c329b5487f44275f"
-            ]
-        ]
-    },
-    {
-        "id": "1c4ba5a71da90197",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Red phone 3",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 9,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 480,
-        "y": 1620,
-        "wires": [
-            [
-                "3141692a4ee8be80"
-            ]
-        ]
-    },
-    {
-        "id": "b649f0f73320a474",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "Red phone 4",
-        "label": "",
-        "tooltip": "",
-        "group": "4a9ec0f2bf0e71f5",
-        "order": 13,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 480,
-        "y": 1680,
-        "wires": [
-            [
-                "ea736a640d0ed8cf"
-            ]
-        ]
-    },
-    {
-        "id": "946b4f50f640095c",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.1.number",
-        "payloadType": "global",
-        "x": 250,
-        "y": 1500,
-        "wires": [
-            [
-                "1d265c6714c44e6e"
-            ]
-        ]
-    },
-    {
-        "id": "0a38a7545c6413a4",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.3.number",
-        "payloadType": "global",
-        "x": 250,
-        "y": 1620,
-        "wires": [
-            [
-                "1c4ba5a71da90197"
-            ]
-        ]
-    },
-    {
-        "id": "36aea38e28b71719",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.4.number",
-        "payloadType": "global",
-        "x": 250,
-        "y": 1680,
-        "wires": [
-            [
-                "b649f0f73320a474"
-            ]
-        ]
-    },
-    {
-        "id": "98a2754583e7de98",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.2.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 720,
-        "y": 1560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3141692a4ee8be80",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.3.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 720,
-        "y": 1620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ea736a640d0ed8cf",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.red.4.number",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 720,
-        "y": 1680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "21feb4313d1113a3",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.2.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1280,
-        "wires": [
-            [
-                "243205590bea155d"
-            ]
-        ]
-    },
-    {
-        "id": "043ee6cadc7d53cc",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.3.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1340,
-        "wires": [
-            [
-                "25cebe7222e2cf1c"
-            ]
-        ]
-    },
-    {
-        "id": "397a86b503fd91d0",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.yellow.4.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1400,
-        "wires": [
-            [
-                "2da25e6cf133c3d3"
-            ]
-        ]
-    },
-    {
-        "id": "7d0d79e7fe847508",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.2.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 1280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c6419f3434168a24",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.3.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 1340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fbce85ae921510ab",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "phone.yellow.4.isEnable",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 1400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "250fec05957d8e37",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.1.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1500,
-        "wires": [
-            [
-                "f07c4c3c0ccc3c75"
-            ]
-        ]
-    },
-    {
-        "id": "47699483f7268530",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.2.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1560,
-        "wires": [
-            [
-                "9410e26ff29a6856"
-            ]
-        ]
-    },
-    {
-        "id": "e763b4064372c910",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.3.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1620,
-        "wires": [
-            [
-                "95e05405d60e2cb7"
-            ]
-        ]
-    },
-    {
-        "id": "e39d174aaba619c9",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "0a6dd317746a90d8",
-        "name": "default",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "phone.red.4.isEnable",
-        "payloadType": "global",
-        "x": 1090,
-        "y": 1680,
-        "wires": [
-            [
-                "20b2d09e9eaad9ea"
-            ]
-        ]
-    },
-    {
-        "id": "cb26ee07fb1c6261",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Mail 1",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 1,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 370,
-        "y": 840,
-        "wires": [
-            [
-                "f3b1f9449459367c"
-            ]
-        ]
-    },
-    {
-        "id": "fad2deab07b4acb1",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail2",
-        "payloadType": "global",
-        "x": 210,
-        "y": 900,
-        "wires": [
-            [
-                "2d5f939135e8aafa"
-            ]
-        ]
-    },
-    {
-        "id": "2993cf7c5c473bfe",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail2",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2d5f939135e8aafa",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Mail 2",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 5,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 370,
-        "y": 900,
-        "wires": [
-            [
-                "2993cf7c5c473bfe"
-            ]
-        ]
-    },
-    {
-        "id": "5eae4be4b8e4eed4",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail3",
-        "payloadType": "global",
-        "x": 210,
-        "y": 960,
-        "wires": [
-            [
-                "465fa150624e1426"
-            ]
-        ]
-    },
-    {
-        "id": "92f27d8f9d991131",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail3",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 960,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "465fa150624e1426",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Mail 3",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 9,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 370,
-        "y": 960,
-        "wires": [
-            [
-                "92f27d8f9d991131"
-            ]
-        ]
-    },
-    {
-        "id": "b09df5feb69c12a2",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mail4",
-        "payloadType": "global",
-        "x": 210,
-        "y": 1020,
-        "wires": [
-            [
-                "7771dbeefccbcf86"
-            ]
-        ]
-    },
-    {
-        "id": "74c0d8044e63a8d0",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mail4",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 1020,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7771dbeefccbcf86",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "5be3070911b62ddc",
-        "name": "Mail 4",
-        "label": "",
-        "tooltip": "",
-        "group": "62802fc9b73ab4f3",
-        "order": 13,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 370,
-        "y": 1020,
-        "wires": [
-            [
-                "74c0d8044e63a8d0"
-            ]
-        ]
-    },
-    {
-        "id": "b26b2b92b0be3bea",
-        "type": "comment",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "Mail timer logic",
-        "info": "A user can send an email on a specifique date ( day + HH:MM:SS):\n    - Dashboard's inputs set globalvalues mytime and myday\n    - Inject's node initialise current time every specifique\n    - Compare current time and global values myday and mytitme\n    - depending on each global.mail.x.isEnable's values, we send overview.csv to mail.x email",
-        "x": 340,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "463fc38244f6065b",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mytime",
-        "payloadType": "global",
-        "x": 360,
-        "y": 360,
-        "wires": [
-            [
-                "4247789fafb1a8b4"
-            ]
-        ]
-    },
-    {
-        "id": "9df7415dc7d5b391",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "myday",
-        "payloadType": "global",
-        "x": 360,
-        "y": 500,
-        "wires": [
-            [
-                "94c3e49698ca00ab"
-            ]
-        ]
-    },
-    {
         "id": "9a9c1501.534708",
         "type": "exec",
         "z": "62319ca4c703e31b",
@@ -13566,175 +11051,11 @@
         "y": 480,
         "wires": [
             [
-                "2210fbec7def7fe5",
                 "7bf45ea0713922aa",
                 "17e786bdb18d2f28",
                 "a1c0ccbff3050db1",
-                "2613733c108b4557"
-            ]
-        ]
-    },
-    {
-        "id": "8b522635f044abd5",
-        "type": "exec",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "command": "sudo wvdial 4gconnect",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "true",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 860,
-        "y": 180,
-        "wires": [
-            [],
-            [
-                "1c5fde4e88f742ba"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "6e9d08c68280e009",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "60",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 270,
-        "y": 180,
-        "wires": [
-            [
-                "461022372839f55d"
-            ]
-        ]
-    },
-    {
-        "id": "1c5fde4e88f742ba",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "secondary DNS",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1050,
-        "y": 180,
-        "wires": [
-            [
-                "4d0897a81d729c5a"
-            ]
-        ]
-    },
-    {
-        "id": "4d0897a81d729c5a",
-        "type": "delay",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "minutes",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1200,
-        "y": 180,
-        "wires": [
-            [
-                "1b34c4b16b3d2ae6"
-            ]
-        ]
-    },
-    {
-        "id": "1b34c4b16b3d2ae6",
-        "type": "exec",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "command": "sudo killall wvdial",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1390,
-        "y": 180,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "971aa1ed046ffd84",
-        "type": "comment",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "name": "Mise à jours Raspb au Démarrage",
-        "info": "On lance la connection internet au démarrage pour être sur que l'heure soit à jours , ensuite on coupe le service pour laisser place à gammu",
-        "x": 260,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "461022372839f55d",
-        "type": "exec",
-        "z": "62319ca4c703e31b",
-        "g": "313844b00761fc7e",
-        "command": "sudo route add default gw 10.64.64.64",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 530,
-        "y": 180,
-        "wires": [
-            [
-                "8b522635f044abd5"
-            ],
-            [
-                "8b522635f044abd5"
-            ],
-            [
-                "8b522635f044abd5"
+                "2613733c108b4557",
+                "2210fbec7def7fe5"
             ]
         ]
     },
@@ -13825,6 +11146,410 @@
         "x": 1450,
         "y": 380,
         "wires": []
+    },
+    {
+        "id": "3f4c124e42161783",
+        "type": "ui_button",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "group": "87e414bbb217edd6",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Modif",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 400,
+        "wires": [
+            [
+                "63f757a5543ffd02"
+            ]
+        ]
+    },
+    {
+        "id": "09d36d7634251a2d",
+        "type": "moment",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "date",
+        "inTz": "Europe/Paris",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "dddd",
+        "locale": "en-EN",
+        "output": "day",
+        "outputType": "msg",
+        "outTz": "Europe/Paris",
+        "x": 780,
+        "y": 520,
+        "wires": [
+            [
+                "8584c8d58c4142de"
+            ]
+        ]
+    },
+    {
+        "id": "6528c887b5afbb30",
+        "type": "moment",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "date",
+        "inTz": "Europe/Paris",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "HH:mm:ss",
+        "locale": "",
+        "output": "time",
+        "outputType": "global",
+        "outTz": "Europe/Paris",
+        "x": 780,
+        "y": 580,
+        "wires": [
+            [
+                "8584c8d58c4142de"
+            ]
+        ]
+    },
+    {
+        "id": "ec9ea18d32f0b5d7",
+        "type": "inject",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "09d36d7634251a2d"
+            ]
+        ]
+    },
+    {
+        "id": "cf82be1e4168dbd1",
+        "type": "inject",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "6528c887b5afbb30"
+            ]
+        ]
+    },
+    {
+        "id": "4247789fafb1a8b4",
+        "type": "ui_text_input",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "label": "Hour ( HH:MM:SS )",
+        "tooltip": "",
+        "group": "87e414bbb217edd6",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 570,
+        "y": 380,
+        "wires": [
+            [
+                "39dad015af45d118"
+            ]
+        ]
+    },
+    {
+        "id": "b48c95c28befaf30",
+        "type": "change",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "myday",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 440,
+        "wires": [
+            [
+                "8584c8d58c4142de"
+            ]
+        ]
+    },
+    {
+        "id": "39dad015af45d118",
+        "type": "change",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mytime",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 380,
+        "wires": [
+            [
+                "8584c8d58c4142de"
+            ]
+        ]
+    },
+    {
+        "id": "94c3e49698ca00ab",
+        "type": "ui_dropdown",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "label": "Day",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "87e414bbb217edd6",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Monday",
+                "value": "Monday",
+                "type": "str"
+            },
+            {
+                "label": "Tuesday",
+                "value": "Tuesday",
+                "type": "str"
+            },
+            {
+                "label": "Wednesday",
+                "value": "Wednesday",
+                "type": "str"
+            },
+            {
+                "label": "Thursday",
+                "value": "Thursday",
+                "type": "str"
+            },
+            {
+                "label": "Friday",
+                "value": "Friday",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 530,
+        "y": 440,
+        "wires": [
+            [
+                "b48c95c28befaf30"
+            ]
+        ]
+    },
+    {
+        "id": "63f757a5543ffd02",
+        "type": "change",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 420,
+        "wires": [
+            [
+                "4247789fafb1a8b4",
+                "94c3e49698ca00ab"
+            ]
+        ]
+    },
+    {
+        "id": "58e9d1949c2999eb",
+        "type": "ui_button",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "group": "87e414bbb217edd6",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Submit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "63f757a5543ffd02"
+            ]
+        ]
+    },
+    {
+        "id": "b26b2b92b0be3bea",
+        "type": "comment",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "Mail timer logic",
+        "info": "A user can send an email on a specifique date ( day + HH:MM:SS):\n    - Dashboard's inputs set globalvalues mytime and myday\n    - Inject's node initialise current time every specifique\n    - Compare current time and global values myday and mytitme\n    - depending on each global.mail.x.isEnable's values, we send overview.csv to mail.x email",
+        "x": 340,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "463fc38244f6065b",
+        "type": "inject",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "mytime",
+        "payloadType": "global",
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "4247789fafb1a8b4"
+            ]
+        ]
+    },
+    {
+        "id": "9df7415dc7d5b391",
+        "type": "inject",
+        "z": "62319ca4c703e31b",
+        "g": "7755e985c66b4523",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "myday",
+        "payloadType": "global",
+        "x": 360,
+        "y": 500,
+        "wires": [
+            [
+                "94c3e49698ca00ab"
+            ]
+        ]
     },
     {
         "id": "2476a574a5295a7e",
@@ -25327,19 +23052,6 @@
         ]
     },
     {
-        "id": "a698ddcc0c7eb4e4",
-        "type": "link out",
-        "z": "87f0c0fcd9955ff1",
-        "name": "ui-reboot-in",
-        "mode": "link",
-        "links": [
-            "a65e5e74d3e6fa52"
-        ],
-        "x": 1345,
-        "y": 100,
-        "wires": []
-    },
-    {
         "id": "ebd7972eadfef993",
         "type": "change",
         "z": "87f0c0fcd9955ff1",
@@ -26748,6 +24460,19 @@
         "wires": []
     },
     {
+        "id": "a698ddcc0c7eb4e4",
+        "type": "link out",
+        "z": "87f0c0fcd9955ff1",
+        "name": "ui-reboot-in",
+        "mode": "link",
+        "links": [
+            "a65e5e74d3e6fa52"
+        ],
+        "x": 1345,
+        "y": 100,
+        "wires": []
+    },
+    {
         "id": "4f403d1f437fd361",
         "type": "inject",
         "z": "2d6b82b9a5cb448c",
@@ -27121,25 +24846,7 @@
         "x": 475.8833312988281,
         "y": 666.88330078125,
         "wires": [
-            [
-                "d1e85c9c6d8dcbc7"
-            ]
+            []
         ]
-    },
-    {
-        "id": "d1e85c9c6d8dcbc7",
-        "type": "debug",
-        "z": "32c216766ca4496d",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 890,
-        "y": 200,
-        "wires": []
     }
 ]
