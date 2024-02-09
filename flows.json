@@ -651,39 +651,6 @@
         "color": "#DDAA99"
     },
     {
-        "id": "24a3f1937fe18a9a",
-        "type": "subflow",
-        "name": "andon csv",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 20,
-                "y": 280,
-                "wires": [
-                    {
-                        "id": "be43f163b5bcfdd7"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 1320,
-                "y": 340,
-                "wires": [
-                    {
-                        "id": "9b2b6e12e9fdd3e5",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
         "id": "8446608a9ec65066",
         "type": "subflow",
         "name": "Andon status management",
@@ -823,6 +790,39 @@
         "color": "#DDAA99"
     },
     {
+        "id": "24a3f1937fe18a9a",
+        "type": "subflow",
+        "name": "andon csv",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 20,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "be43f163b5bcfdd7"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1320,
+                "y": 340,
+                "wires": [
+                    {
+                        "id": "9b2b6e12e9fdd3e5",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
         "id": "88c4d8bf6be58f06",
         "type": "group",
         "z": "8d2fa3bfaacbccf6",
@@ -838,9 +838,7 @@
             "c1673d1b6e624deb"
         ],
         "x": 814,
-        "y": 439,
-        "w": 392,
-        "h": 142
+        "y": 439
     },
     {
         "id": "9167f71b31bcee63",
@@ -866,9 +864,7 @@
             "d20cb86391867e37"
         ],
         "x": 254,
-        "y": 239,
-        "w": 392,
-        "h": 722
+        "y": 239
     },
     {
         "id": "b742825b304be1d9",
@@ -897,9 +893,7 @@
             "dfdea5e232cebe19"
         ],
         "x": 254,
-        "y": 999,
-        "w": 1452,
-        "h": 442
+        "y": 999
     },
     {
         "id": "f125161e3f93cd32",
@@ -1014,9 +1008,7 @@
             "c46602cf2c25c0c9"
         ],
         "x": 1974,
-        "y": 179,
-        "w": 1412,
-        "h": 2042
+        "y": 179
     },
     {
         "id": "4e82a31b300de3bc",
@@ -1071,9 +1063,7 @@
             "e735d1a80badfece"
         ],
         "x": 1734,
-        "y": 219,
-        "w": 522,
-        "h": 1062
+        "y": 219
     },
     {
         "id": "b21a3d871e9b9e2f",
@@ -1131,9 +1121,7 @@
             "1f82beed7edbbe3e"
         ],
         "x": 234,
-        "y": 79,
-        "w": 1262,
-        "h": 1262
+        "y": 79
     },
     {
         "id": "8f2dcb6df9878af5",
@@ -1276,9 +1264,7 @@
             "2476a574a5295a7e"
         ],
         "x": 94,
-        "y": 259,
-        "w": 2012,
-        "h": 429.5
+        "y": 259
     },
     {
         "id": "cd7adfa5108867af",
@@ -5225,134 +5211,6 @@
         ]
     },
     {
-        "id": "56114233b0e21cbe",
-        "type": "csv",
-        "z": "24a3f1937fe18a9a",
-        "name": "",
-        "sep": ",",
-        "hdrin": "",
-        "hdrout": "none",
-        "multi": "one",
-        "ret": "\\n",
-        "temp": "",
-        "skip": "0",
-        "strings": true,
-        "include_empty_strings": "",
-        "include_null_values": "",
-        "x": 630,
-        "y": 280,
-        "wires": [
-            [
-                "89f6ac9f8fbd689a"
-            ]
-        ]
-    },
-    {
-        "id": "89f6ac9f8fbd689a",
-        "type": "file",
-        "z": "24a3f1937fe18a9a",
-        "name": "",
-        "filename": "/home/aio/.node-red/andon.csv",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "utf8",
-        "x": 930,
-        "y": 280,
-        "wires": [
-            [
-                "8d69504bd829975d",
-                "9b2b6e12e9fdd3e5"
-            ]
-        ]
-    },
-    {
-        "id": "be43f163b5bcfdd7",
-        "type": "moment",
-        "z": "24a3f1937fe18a9a",
-        "name": "",
-        "topic": "",
-        "input": "",
-        "inputType": "date",
-        "inTz": "Europe/Paris",
-        "adjAmount": 0,
-        "adjType": "days",
-        "adjDir": "add",
-        "format": "DD-MM-YYYY HH:mm:ss",
-        "locale": "fr-FR",
-        "output": "mytime",
-        "outputType": "msg",
-        "outTz": "Europe/Paris",
-        "x": 220,
-        "y": 280,
-        "wires": [
-            [
-                "e59c5530e359a58a"
-            ]
-        ]
-    },
-    {
-        "id": "e59c5530e359a58a",
-        "type": "function",
-        "z": "24a3f1937fe18a9a",
-        "name": "config csv",
-        "func": "const moment = global.get('moment')\nvar postes = global.get(\"postes\") || []\nvar date = new Date()\nvar currentDateUTC = moment(date)\npostes.forEach(function(poste) {    \n    if (poste && msg.title === poste.name) {\n        if (!poste.logs)\n            poste.logs = []\n        poste.logs.push({\n            \"date\": currentDateUTC, \n            \"status\": msg.status\n        });\n    }\n});\nglobal.set(\"postes\", postes)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 440,
-        "y": 280,
-        "wires": [
-            [
-                "56114233b0e21cbe"
-            ]
-        ]
-    },
-    {
-        "id": "8d69504bd829975d",
-        "type": "debug",
-        "z": "24a3f1937fe18a9a",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1190,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "9b2b6e12e9fdd3e5",
-        "type": "change",
-        "z": "24a3f1937fe18a9a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1160,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ff0614448ec9b619",
         "type": "change",
         "z": "8446608a9ec65066",
@@ -5768,8 +5626,7 @@
         "wires": [
             [
                 "cf80630c79a9c458",
-                "da910153ab77870f",
-                "01af16dc88deeb7e"
+                "28849714e74698a3"
             ]
         ]
     },
@@ -5887,7 +5744,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 1150,
-        "y": 520,
+        "y": 720,
         "wires": [
             []
         ]
@@ -5936,8 +5793,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 600,
+        "x": 150,
+        "y": 760,
         "wires": [
             []
         ]
@@ -5958,7 +5815,7 @@
         "include_empty_strings": "",
         "include_null_values": "",
         "x": 850,
-        "y": 520,
+        "y": 720,
         "wires": [
             [
                 "6315b681101769f9"
@@ -5977,7 +5834,7 @@
         "finalize": "",
         "libs": [],
         "x": 630,
-        "y": 520,
+        "y": 720,
         "wires": [
             [
                 "6ebc724e1f6f1c63"
@@ -5995,8 +5852,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 640,
+        "x": 150,
+        "y": 800,
         "wires": [
             []
         ]
@@ -6017,7 +5874,7 @@
         "include_empty_strings": "",
         "include_null_values": "",
         "x": 850,
-        "y": 600,
+        "y": 800,
         "wires": [
             [
                 "45a6d907b42d6973"
@@ -6035,7 +5892,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 1150,
-        "y": 600,
+        "y": 800,
         "wires": [
             []
         ]
@@ -6052,11 +5909,219 @@
         "finalize": "",
         "libs": [],
         "x": 630,
-        "y": 600,
+        "y": 800,
         "wires": [
             [
                 "02ec4f682e82589a"
             ]
+        ]
+    },
+    {
+        "id": "816d1051088fc8ab",
+        "type": "file",
+        "z": "e71e1530d35a0971",
+        "name": "",
+        "filename": "/home/robotic/.node-red/csv/time.csv",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1170,
+        "y": 540,
+        "wires": [
+            [
+                "f5d1d5408aaec354"
+            ]
+        ]
+    },
+    {
+        "id": "7c6dabf1becebf04",
+        "type": "csv",
+        "z": "e71e1530d35a0971",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 850,
+        "y": 540,
+        "wires": [
+            [
+                "816d1051088fc8ab"
+            ]
+        ]
+    },
+    {
+        "id": "28849714e74698a3",
+        "type": "function",
+        "z": "e71e1530d35a0971",
+        "name": "config logs duration",
+        "func": "let output = []\nmsg.log.forEach(function (poste) {\n    if (poste && poste.logs) {\n        let previousLog = null;\n        let log_array = [poste.name];\n        poste.logs.forEach(function (log) {\n            if (previousLog) {\n                let duration = log.last_duration + previousLog.last_duration;\n                let sec = duration % 60;\n                duration = (duration - sec) / 60;\n                sec = sec < 10 ? \"0\" + sec : sec;\n                let min = duration % 60;\n                duration = (duration - min) / 60;\n                min = min < 10 ? \"0\" + min : min;\n                let hour = duration < 10 ? \"0\" + duration : duration;\n                let totalTime = \"\"\n                totalTime += hour + \":\" + min + \":\" + sec;\n                \n                if (previousLog.status === 'level1' && log.status !== 'level2' || previousLog.status === 'level2') {\n                    log_array.push(totalTime);\n                    previousLog = null;\n                }\n            }\n            previousLog = log;\n        });\n        output.push(log_array);\n    }\n});\n\nmsg.payload = output;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "7c6dabf1becebf04"
+            ]
+        ]
+    },
+    {
+        "id": "f5d1d5408aaec354",
+        "type": "exec",
+        "z": "e71e1530d35a0971",
+        "command": "ssconvert .node-red/csv/time.csv .node-red/csv/time.xlsx",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1630,
+        "y": 540,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "56114233b0e21cbe",
+        "type": "csv",
+        "z": "24a3f1937fe18a9a",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "89f6ac9f8fbd689a"
+            ]
+        ]
+    },
+    {
+        "id": "89f6ac9f8fbd689a",
+        "type": "file",
+        "z": "24a3f1937fe18a9a",
+        "name": "",
+        "filename": "/home/robotic/.node-red/andon.csv",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 940,
+        "y": 280,
+        "wires": [
+            [
+                "8d69504bd829975d",
+                "9b2b6e12e9fdd3e5"
+            ]
+        ]
+    },
+    {
+        "id": "be43f163b5bcfdd7",
+        "type": "moment",
+        "z": "24a3f1937fe18a9a",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "date",
+        "inTz": "Europe/Paris",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "DD-MM-YYYY HH:mm:ss",
+        "locale": "fr-FR",
+        "output": "mytime",
+        "outputType": "msg",
+        "outTz": "Europe/Paris",
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "e59c5530e359a58a"
+            ]
+        ]
+    },
+    {
+        "id": "e59c5530e359a58a",
+        "type": "function",
+        "z": "24a3f1937fe18a9a",
+        "name": "config csv",
+        "func": "const moment = global.get('moment')\nvar postes = global.get(\"postes\") || []\nvar date = new Date()\nvar currentDateUTC = moment(date)\npostes.forEach(function(poste) {    \n    if (poste && msg.title === poste.name) {\n        if (!poste.logs){\n            poste.logs = []\n        }\n        if (poste.logs.length > 0){\n            // Get last log\n            var last_poste = poste.logs[poste.logs.length - 1]\n            if (last_poste.status === \"level1\" || last_poste.status === \"level2\" ){\n                let duration = new Date(date).getTime() - new Date(last_poste.date).getTime();\n                let rem = duration % 1000;\n                let time = (duration - rem) / 1000;\n                poste.logs.push({\n                    \"date\": currentDateUTC,\n                    \"status\": msg.status,\n                    \"last_duration\": time\n                });\n            }\n            else {\n                \n                poste.logs.push({\n                    \"date\": currentDateUTC,\n                    \"status\": msg.status,\n                    \"last_duration\": 0\n                });\n            }\n        }\n        else {\n            poste.logs.push({\n                \"date\": currentDateUTC,\n                \"status\": msg.status,\n                \"last_duration\": 0\n            });\n        }\n    }\n});\nglobal.set(\"postes\", postes)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "56114233b0e21cbe"
+            ]
+        ]
+    },
+    {
+        "id": "8d69504bd829975d",
+        "type": "debug",
+        "z": "24a3f1937fe18a9a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9b2b6e12e9fdd3e5",
+        "type": "change",
+        "z": "24a3f1937fe18a9a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 340,
+        "wires": [
+            []
         ]
     },
     {
@@ -7297,7 +7362,8 @@
         "name": "Alert1",
         "mode": "link",
         "links": [
-            "4e05d945f9c84f91"
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
         ],
         "x": 2835,
         "y": 380,
@@ -7311,7 +7377,7 @@
         "name": "Alert2",
         "mode": "link",
         "links": [
-            "4e05d945f9c84f91"
+            "ea580bbb65fc5f4e"
         ],
         "x": 2815,
         "y": 580,
@@ -7473,7 +7539,8 @@
         "name": "Alert3",
         "mode": "link",
         "links": [
-            "4e05d945f9c84f91"
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
         ],
         "x": 2815,
         "y": 780,
@@ -7575,7 +7642,8 @@
         "name": "Alert4",
         "mode": "link",
         "links": [
-            "4e05d945f9c84f91"
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
         ],
         "x": 2815,
         "y": 980,
@@ -7677,7 +7745,8 @@
         "name": "Alert5",
         "mode": "link",
         "links": [
-            "4e05d945f9c84f91"
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
         ],
         "x": 2815,
         "y": 1180,
@@ -9282,6 +9351,37 @@
         "x": 1550,
         "y": 1160,
         "wires": []
+    },
+    {
+        "id": "2baa941dca8d6d5b",
+        "type": "subflow:24a3f1937fe18a9a",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "x": 410,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea580bbb65fc5f4e",
+        "type": "link in",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "links": [
+            "7aefbc1f6399d686",
+            "b3caeeab2e363f8b",
+            "84c8bd233c1be8e1",
+            "6da5cc9221a34e86",
+            "69138c48be2660c3"
+        ],
+        "x": 245,
+        "y": 1600,
+        "wires": [
+            [
+                "2baa941dca8d6d5b"
+            ]
+        ]
     },
     {
         "id": "3a6089a623cc49c1",
