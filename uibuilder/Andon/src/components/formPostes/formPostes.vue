@@ -81,9 +81,20 @@
                 </div>
             </div>
         </div>
+        <div class="lineName-container custom-width">
+            <h1>Send Excel</h1>
+            <b-form-input id="mail" v-model="mail" :placeholder="mail"></b-form-input>
+            <div class="submit-container">
+                <button class="btn btn-primary" @click="sendExcel()">SUBMIT</button>
+            </div>
+        </div>
     </div>
 </template>
 <style scoped>
+.custom-width {
+    max-width: fit-content;
+    margin-inline: auto;
+}
 
 .header-form {
     height: 8.5vh;
@@ -100,10 +111,20 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
-    padding: 25px;
-    padding-top: 0px;
+    padding: 0px 70px 110px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif !important;
     color: #535353;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.submit-btn {
+    border-radius: 30px;
+    padding: 0px;
+    font-size: 2vh;
+    height: 3.5vh;
+    width: 6vw;
 }
 
 .postes-container {
@@ -324,6 +345,7 @@ module.exports = {
             lineName: "",
             takTime: 0,
             mustDisable: false,
+            mail: ""
         };
     },
     mounted() {
@@ -444,7 +466,7 @@ module.exports = {
         shouldDisableControlButton(index) {
             return this.postes[index].isEnable === false || this.postes[index].id == undefined || this.postes[index].isLearning
         },
-    
+
         shouldDisableDelButton() {
             return this.areDelButtonsDisable
         },
@@ -515,6 +537,15 @@ module.exports = {
             var status = this.postes[index].status;
             return status === 'level1' || status === 'level2';
         },
+        sendExcel() {
+            console.log(this.mail)
+            uibuilder.send({
+                'topic': 'sendExcel',
+                'payload': {
+                    'mail': this.mail
+                }
+            })
+        }
     },
 
 }
