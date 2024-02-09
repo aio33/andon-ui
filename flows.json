@@ -838,7 +838,9 @@
             "c1673d1b6e624deb"
         ],
         "x": 814,
-        "y": 439
+        "y": 439,
+        "w": 392,
+        "h": 142
     },
     {
         "id": "9167f71b31bcee63",
@@ -864,7 +866,9 @@
             "d20cb86391867e37"
         ],
         "x": 254,
-        "y": 239
+        "y": 239,
+        "w": 392,
+        "h": 722
     },
     {
         "id": "b742825b304be1d9",
@@ -893,7 +897,9 @@
             "dfdea5e232cebe19"
         ],
         "x": 254,
-        "y": 999
+        "y": 999,
+        "w": 1452,
+        "h": 442
     },
     {
         "id": "f125161e3f93cd32",
@@ -1008,7 +1014,9 @@
             "c46602cf2c25c0c9"
         ],
         "x": 1974,
-        "y": 179
+        "y": 179,
+        "w": 1412,
+        "h": 2042
     },
     {
         "id": "4e82a31b300de3bc",
@@ -1213,58 +1221,36 @@
         "y": 99
     },
     {
-        "id": "7755e985c66b4523",
+        "id": "1ddeb4c12d9f08f2",
         "type": "group",
         "z": "62319ca4c703e31b",
-        "name": "",
         "style": {
-            "stroke": "#ffdf7f",
-            "label": true
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
         },
         "nodes": [
-            "3a6089a623cc49c1",
-            "8584c8d58c4142de",
-            "db32a6a7b07d4ceb",
-            "4ee86baec5e1122f",
-            "f7895a40ff209cd5",
-            "7bf45ea0713922aa",
-            "17e786bdb18d2f28",
-            "a1c0ccbff3050db1",
-            "7534457d69477606",
-            "2613733c108b4557",
-            "c8caf5ce6b83a327",
-            "d3cefc84f7422b31",
-            "111886ca76501d73",
-            "268e0bd2dd6469af",
-            "afa685473dfe6f5e",
-            "723de0c4591327bf",
-            "327cb6f52b73e65f",
-            "9a9c1501.534708",
-            "ede21fb4d60fcc44",
-            "2210fbec7def7fe5",
-            "4f82e73e89f77f37",
-            "bd4495cd1f5b29ad",
             "631a757bc6a71a93",
-            "925e7c798f72816a",
-            "977b08c71df15bc7",
-            "3f4c124e42161783",
-            "09d36d7634251a2d",
-            "6528c887b5afbb30",
-            "ec9ea18d32f0b5d7",
-            "cf82be1e4168dbd1",
-            "4247789fafb1a8b4",
-            "b48c95c28befaf30",
-            "39dad015af45d118",
-            "94c3e49698ca00ab",
-            "63f757a5543ffd02",
-            "58e9d1949c2999eb",
             "b26b2b92b0be3bea",
-            "463fc38244f6065b",
-            "9df7415dc7d5b391",
-            "2476a574a5295a7e"
+            "1cb6b9cda6ceac39",
+            "015436d1df1d0742",
+            "5deedb0630424419",
+            "aadf1d998a58d891",
+            "2ebc29cd7da8c357",
+            "6f8c645649f81cf3",
+            "6b4563d4c04f7c22",
+            "004897656b70dfc6",
+            "37285c719a615c57",
+            "d36eee43e3601f22"
         ],
-        "x": 94,
-        "y": 259
+        "x": 154,
+        "y": 239,
+        "w": 1192,
+        "h": 489.5
     },
     {
         "id": "cd7adfa5108867af",
@@ -9384,623 +9370,10 @@
         ]
     },
     {
-        "id": "3a6089a623cc49c1",
-        "type": "e-mail",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": true,
-        "token": "oauth2Response.access_token",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2030,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "8584c8d58c4142de",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "myday",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "day",
-                "vt": "msg"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 990,
-        "y": 480,
-        "wires": [
-            [
-                "db32a6a7b07d4ceb"
-            ]
-        ]
-    },
-    {
-        "id": "db32a6a7b07d4ceb",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "mytime",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "time",
-                "vt": "global"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1130,
-        "y": 480,
-        "wires": [
-            [
-                "9a9c1501.534708",
-                "327cb6f52b73e65f",
-                "bd4495cd1f5b29ad"
-            ]
-        ]
-    },
-    {
-        "id": "4ee86baec5e1122f",
-        "type": "e-mail",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": true,
-        "token": "oauth2Response.access_token",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2030,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "f7895a40ff209cd5",
-        "type": "e-mail",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": true,
-        "token": "oauth2Response.access_token",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2030,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "7bf45ea0713922aa",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "mail1status",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1670,
-        "y": 380,
-        "wires": [
-            [
-                "111886ca76501d73"
-            ]
-        ]
-    },
-    {
-        "id": "17e786bdb18d2f28",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "mail2status",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1670,
-        "y": 440,
-        "wires": [
-            [
-                "268e0bd2dd6469af"
-            ]
-        ]
-    },
-    {
-        "id": "a1c0ccbff3050db1",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "mail3status",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1670,
-        "y": 500,
-        "wires": [
-            [
-                "afa685473dfe6f5e"
-            ]
-        ]
-    },
-    {
-        "id": "7534457d69477606",
-        "type": "e-mail",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": true,
-        "token": "oauth2Response.access_token",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2030,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "2613733c108b4557",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "mail4status",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1670,
-        "y": 560,
-        "wires": [
-            [
-                "723de0c4591327bf"
-            ]
-        ]
-    },
-    {
-        "id": "c8caf5ce6b83a327",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "titre1",
-                "pt": "msg",
-                "to": "postes.0.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count1",
-                "pt": "msg",
-                "to": "postes.0.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre2",
-                "pt": "msg",
-                "to": "postes.1.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count2",
-                "pt": "msg",
-                "to": "postes.1.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre3",
-                "pt": "msg",
-                "to": "postes.2.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count3",
-                "pt": "msg",
-                "to": "postes.2.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre4",
-                "pt": "msg",
-                "to": "postes.3.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count4",
-                "pt": "msg",
-                "to": "postes.3.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre5",
-                "pt": "msg",
-                "to": "postes.4.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count5",
-                "pt": "msg",
-                "to": "postes.4.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre6",
-                "pt": "msg",
-                "to": "postes.5.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count6",
-                "pt": "msg",
-                "to": "postes.5.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre7",
-                "pt": "msg",
-                "to": "postes.6.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count7",
-                "pt": "msg",
-                "to": "postes.6.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre8",
-                "pt": "msg",
-                "to": "postes.7.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count8",
-                "pt": "msg",
-                "to": "postes.7.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre9",
-                "pt": "msg",
-                "to": "postes.8.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count9",
-                "pt": "msg",
-                "to": "postes.8.count",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "titre10",
-                "pt": "msg",
-                "to": "postes.9.name",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "count10",
-                "pt": "msg",
-                "to": "postes.9.count",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1450,
-        "y": 300,
-        "wires": [
-            [
-                "d3cefc84f7422b31"
-            ]
-        ]
-    },
-    {
-        "id": "d3cefc84f7422b31",
-        "type": "subflow:2242055f905e7ed2",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "x": 1650,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "111886ca76501d73",
-        "type": "function",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "Configuration mail",
-        "func": "var mail1 = global.get('mail1');\nvar nomligne = global.get('line_name')\nmsg = {\n    to: mail1,\n    topic: \"Fichiers andon\",\n    payload: \" Voici le fichier résumé des appuis boutons et le fichier synthèse des compteurs de la ligne: \"+nomligne+\" . Vous pouvez avoir un graphique en ouvrant le fichier graph.csv avec via le fichier import.xlsm\" ,\n    attachments: [\n        {\n            filename: 'andon.csv',\n            path: '/home/aio/.node-red/andon.csv'\n        },\n        {\n            filename: 'overview.csv',\n            path: '/home/aio/.node-red/overview.csv'\n        },\n        {\n            filename: 'graph.csv',\n            path: '/home/aio/.node-red/graph.csv'\n        },\n        {\n            filename: 'Import_fichier_CSV.xls',\n            path: '/home/aio/.node-red/import.xlsm'\n        }\n    ]\n\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1850,
-        "y": 380,
-        "wires": [
-            [
-                "3a6089a623cc49c1"
-            ]
-        ],
-        "info": "Paramètrage mail : \n- Destinataire\n- Objet\n- Corps\n- Attachments"
-    },
-    {
-        "id": "268e0bd2dd6469af",
-        "type": "function",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "Configuration mail",
-        "func": "var mail2 = global.get('mail2');\nvar nomligne = global.get('line_name')\nmsg = {\n    to: mail2,\n    topic: \"Fichiers andon\",\n    payload: \" Voici le fichier résumé des appuis boutons et le fichier synthèse des compteurs de la ligne: \" + nomligne + \" . Vous pouvez avoir un graphique en ouvrant le fichier graph.csv avec via le fichier import.xlsm\",\n    attachments: [\n        {\n            filename: 'andon.csv',\n            path: '/home/aio/.node-red/andon.csv'\n        },\n        {\n            filename: 'overview.csv',\n            path: '/home/aio/.node-red/overview.csv'\n        },\n        {\n            filename: 'graph.csv',\n            path: '/home/aio/.node-red/graph.csv'\n        },\n        {\n            filename: 'Import_fichier_CSV.xls',\n            path: '/home/aio/.node-red/import.xlsm'\n        }\n    ]\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1850,
-        "y": 440,
-        "wires": [
-            [
-                "4ee86baec5e1122f"
-            ]
-        ],
-        "info": "Paramètrage mail : \n- Destinataire\n- Objet\n- Corps\n- Attachments"
-    },
-    {
-        "id": "afa685473dfe6f5e",
-        "type": "function",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "Configuration mail",
-        "func": "var mail3 = global.get('mail3');\nvar nomligne = global.get('line_name')\nmsg = {\n    to: mail3,\n    topic: \"Fichiers andon\",\n    payload: \" Voici le fichier résumé des appuis boutons et le fichier synthèse des compteurs de la ligne: \" + nomligne + \" . Vous pouvez avoir un graphique en ouvrant le fichier graph.csv avec via le fichier import.xlsm\",\n    attachments: [\n        {\n            filename: 'andon.csv',\n            path: '/home/aio/.node-red/andon.csv'\n        },\n        {\n            filename: 'overview.csv',\n            path: '/home/aio/.node-red/overview.csv'\n        },\n        {\n            filename: 'graph.csv',\n            path: '/home/aio/.node-red/graph.csv'\n        },\n        {\n            filename: 'Import_fichier_CSV.xls',\n            path: '/home/aio/.node-red/import.xlsm'\n        }\n    ]\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1850,
-        "y": 500,
-        "wires": [
-            [
-                "f7895a40ff209cd5"
-            ]
-        ],
-        "info": "Paramètrage mail : \n- Destinataire\n- Objet\n- Corps\n- Attachments"
-    },
-    {
-        "id": "723de0c4591327bf",
-        "type": "function",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "Configuration mail",
-        "func": "var mail4 = global.get('mail4');\nvar nomligne = global.get('line_name')\nmsg = {\n    to: mail4,\n    topic: \"Fichiers andon\",\n    payload: \" Voici le fichier résumé des appuis boutons et le fichier synthèse des compteurs de la ligne: \" + nomligne + \" . Vous pouvez avoir un graphique en ouvrant le fichier graph.csv avec via le fichier import.xlsm\",\n    attachments: [\n        {\n            filename: 'andon.csv',\n            path: '/home/aio/.node-red/andon.csv'\n        },\n        {\n            filename: 'overview.csv',\n            path: '/home/aio/.node-red/overview.csv'\n        },\n        {\n            filename: 'graph.csv',\n            path: '/home/aio/.node-red/graph.csv'\n        },\n        {\n            filename: 'Import_fichier_CSV.xls',\n            path: '/home/aio/.node-red/import.xlsm'\n        }\n    ]\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1850,
-        "y": 560,
-        "wires": [
-            [
-                "7534457d69477606"
-            ]
-        ],
-        "info": "Paramètrage mail : \n- Destinataire\n- Objet\n- Corps\n- Attachments"
-    },
-    {
-        "id": "327cb6f52b73e65f",
-        "type": "file",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "delete",
-        "filename": "/home/aio/.node-red/overview.csv",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "delete",
-        "encoding": "none",
-        "x": 1270,
-        "y": 300,
-        "wires": [
-            [
-                "c8caf5ce6b83a327"
-            ]
-        ]
-    },
-    {
-        "id": "9a9c1501.534708",
-        "type": "exec",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "command": "sudo wvdial 4gconnect",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "true",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1320,
-        "y": 480,
-        "wires": [
-            [
-                "977b08c71df15bc7"
-            ],
-            [
-                "4f82e73e89f77f37",
-                "977b08c71df15bc7"
-            ],
-            [
-                "977b08c71df15bc7"
-            ]
-        ]
-    },
-    {
-        "id": "ede21fb4d60fcc44",
-        "type": "exec",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "command": "sudo killall wvdial",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1850,
-        "y": 640,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "2210fbec7def7fe5",
-        "type": "delay",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "minutes",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1660,
-        "y": 640,
-        "wires": [
-            [
-                "ede21fb4d60fcc44"
-            ]
-        ]
-    },
-    {
-        "id": "4f82e73e89f77f37",
-        "type": "switch",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "secondary DNS",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1510,
-        "y": 480,
-        "wires": [
-            [
-                "7bf45ea0713922aa",
-                "17e786bdb18d2f28",
-                "a1c0ccbff3050db1",
-                "2613733c108b4557",
-                "2210fbec7def7fe5"
-            ]
-        ]
-    },
-    {
-        "id": "bd4495cd1f5b29ad",
-        "type": "subflow:e71e1530d35a0971",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "x": 1300,
-        "y": 580,
-        "wires": []
-    },
-    {
         "id": "631a757bc6a71a93",
         "type": "inject",
         "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
+        "g": "1ddeb4c12d9f08f2",
         "name": "TEST CSV",
         "props": [
             {
@@ -10018,400 +9391,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1100,
-        "y": 580,
+        "x": 260,
+        "y": 540,
         "wires": [
             [
-                "bd4495cd1f5b29ad"
-            ]
-        ]
-    },
-    {
-        "id": "925e7c798f72816a",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "TEST MAIL",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1110,
-        "y": 400,
-        "wires": [
-            [
-                "9a9c1501.534708",
-                "bd4495cd1f5b29ad"
-            ]
-        ]
-    },
-    {
-        "id": "977b08c71df15bc7",
-        "type": "debug",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1450,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "3f4c124e42161783",
-        "type": "ui_button",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "group": "87e414bbb217edd6",
-        "order": 6,
-        "width": 2,
-        "height": 1,
-        "passthru": false,
-        "label": "Modif",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 190,
-        "y": 400,
-        "wires": [
-            [
-                "63f757a5543ffd02"
-            ]
-        ]
-    },
-    {
-        "id": "09d36d7634251a2d",
-        "type": "moment",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "topic": "",
-        "input": "",
-        "inputType": "date",
-        "inTz": "Europe/Paris",
-        "adjAmount": 0,
-        "adjType": "days",
-        "adjDir": "add",
-        "format": "dddd",
-        "locale": "en-EN",
-        "output": "day",
-        "outputType": "msg",
-        "outTz": "Europe/Paris",
-        "x": 780,
-        "y": 520,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "6528c887b5afbb30",
-        "type": "moment",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "topic": "",
-        "input": "",
-        "inputType": "date",
-        "inTz": "Europe/Paris",
-        "adjAmount": 0,
-        "adjType": "days",
-        "adjDir": "add",
-        "format": "HH:mm:ss",
-        "locale": "",
-        "output": "time",
-        "outputType": "global",
-        "outTz": "Europe/Paris",
-        "x": 780,
-        "y": 580,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "ec9ea18d32f0b5d7",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 570,
-        "y": 520,
-        "wires": [
-            [
-                "09d36d7634251a2d"
-            ]
-        ]
-    },
-    {
-        "id": "cf82be1e4168dbd1",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 570,
-        "y": 580,
-        "wires": [
-            [
-                "6528c887b5afbb30"
-            ]
-        ]
-    },
-    {
-        "id": "4247789fafb1a8b4",
-        "type": "ui_text_input",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "label": "Hour ( HH:MM:SS )",
-        "tooltip": "",
-        "group": "87e414bbb217edd6",
-        "order": 3,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 570,
-        "y": 380,
-        "wires": [
-            [
-                "39dad015af45d118"
-            ]
-        ]
-    },
-    {
-        "id": "b48c95c28befaf30",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "myday",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 440,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "39dad015af45d118",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "mytime",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 380,
-        "wires": [
-            [
-                "8584c8d58c4142de"
-            ]
-        ]
-    },
-    {
-        "id": "94c3e49698ca00ab",
-        "type": "ui_dropdown",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "label": "Day",
-        "tooltip": "",
-        "place": "Select option",
-        "group": "87e414bbb217edd6",
-        "order": 1,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "Monday",
-                "value": "Monday",
-                "type": "str"
-            },
-            {
-                "label": "Tuesday",
-                "value": "Tuesday",
-                "type": "str"
-            },
-            {
-                "label": "Wednesday",
-                "value": "Wednesday",
-                "type": "str"
-            },
-            {
-                "label": "Thursday",
-                "value": "Thursday",
-                "type": "str"
-            },
-            {
-                "label": "Friday",
-                "value": "Friday",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 530,
-        "y": 440,
-        "wires": [
-            [
-                "b48c95c28befaf30"
-            ]
-        ]
-    },
-    {
-        "id": "63f757a5543ffd02",
-        "type": "change",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            },
-            {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 360,
-        "y": 420,
-        "wires": [
-            [
-                "4247789fafb1a8b4",
-                "94c3e49698ca00ab"
-            ]
-        ]
-    },
-    {
-        "id": "58e9d1949c2999eb",
-        "type": "ui_button",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "group": "87e414bbb217edd6",
-        "order": 5,
-        "width": 2,
-        "height": 1,
-        "passthru": false,
-        "label": "Submit",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 180,
-        "y": 440,
-        "wires": [
-            [
-                "63f757a5543ffd02"
+                "aadf1d998a58d891"
             ]
         ]
     },
@@ -10419,79 +9403,233 @@
         "id": "b26b2b92b0be3bea",
         "type": "comment",
         "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
+        "g": "1ddeb4c12d9f08f2",
         "name": "Mail timer logic",
         "info": "A user can send an email on a specifique date ( day + HH:MM:SS):\n    - Dashboard's inputs set globalvalues mytime and myday\n    - Inject's node initialise current time every specifique\n    - Compare current time and global values myday and mytitme\n    - depending on each global.mail.x.isEnable's values, we send overview.csv to mail.x email",
-        "x": 340,
-        "y": 300,
+        "x": 300,
+        "y": 280,
         "wires": []
     },
     {
-        "id": "463fc38244f6065b",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "mytime",
-        "payloadType": "global",
-        "x": 360,
-        "y": 360,
-        "wires": [
-            [
-                "4247789fafb1a8b4"
-            ]
-        ]
-    },
-    {
-        "id": "9df7415dc7d5b391",
-        "type": "inject",
-        "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "myday",
-        "payloadType": "global",
-        "x": 360,
-        "y": 500,
-        "wires": [
-            [
-                "94c3e49698ca00ab"
-            ]
-        ]
-    },
-    {
-        "id": "2476a574a5295a7e",
+        "id": "1cb6b9cda6ceac39",
         "type": "link in",
         "z": "62319ca4c703e31b",
-        "g": "7755e985c66b4523",
-        "name": "ui-schedule-out",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "ui-send-excel-out",
         "links": [
-            "54def7eaa568ea11"
+            "7b7f017470e139ec"
         ],
-        "x": 845,
-        "y": 320,
+        "x": 195,
+        "y": 420,
         "wires": [
             [
-                "8584c8d58c4142de"
+                "aadf1d998a58d891",
+                "d36eee43e3601f22"
+            ]
+        ]
+    },
+    {
+        "id": "015436d1df1d0742",
+        "type": "e-mail",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 1150,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5deedb0630424419",
+        "type": "function",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "Configuration mail",
+        "func": "var mail = global.get('mail') || \"\";\nvar nomligne = global.get('line_name')\nmsg = {\n    to: mail,\n    topic: \"Fichiers andon\",\n    payload: \" Voici le fichier résumé des cycles de la ligne: \"+nomligne+\".\" ,\n    attachments: [\n        {\n            filename: 'time.xlsx',\n            path: '/home/robotic/.node-red/csv/time.xlsx'\n        }\n    ]\n\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 420,
+        "wires": [
+            [
+                "015436d1df1d0742"
+            ]
+        ],
+        "info": "Paramètrage mail : \n- Destinataire\n- Objet\n- Corps\n- Attachments"
+    },
+    {
+        "id": "aadf1d998a58d891",
+        "type": "change",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "log",
+                "pt": "msg",
+                "to": "postes",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 540,
+        "wires": [
+            [
+                "6b4563d4c04f7c22"
+            ]
+        ]
+    },
+    {
+        "id": "2ebc29cd7da8c357",
+        "type": "file",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "",
+        "filename": "/home/robotic/.node-red/csv/time.csv",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1170,
+        "y": 540,
+        "wires": [
+            [
+                "004897656b70dfc6"
+            ]
+        ]
+    },
+    {
+        "id": "6f8c645649f81cf3",
+        "type": "csv",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 930,
+        "y": 540,
+        "wires": [
+            [
+                "2ebc29cd7da8c357"
+            ]
+        ]
+    },
+    {
+        "id": "6b4563d4c04f7c22",
+        "type": "function",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "config logs duration",
+        "func": "let output = []\nmsg.log.forEach(function (poste) {\n    if (poste && poste.logs) {\n        let previousLog = null;\n        let log_array = [poste.name];\n        poste.logs.forEach(function (log) {\n            if (previousLog) {\n                let duration = log.last_duration + previousLog.last_duration;\n                let sec = duration % 60;\n                duration = (duration - sec) / 60;\n                sec = sec < 10 ? \"0\" + sec : sec;\n                let min = duration % 60;\n                duration = (duration - min) / 60;\n                min = min < 10 ? \"0\" + min : min;\n                let hour = duration < 10 ? \"0\" + duration : duration;\n                let totalTime = \"\"\n                totalTime += hour + \":\" + min + \":\" + sec;\n                \n                if (previousLog.status === 'level1' && log.status !== 'level2' || previousLog.status === 'level2') {\n                    log_array.push(totalTime);\n                    previousLog = null;\n                }\n            }\n            previousLog = log;\n        });\n        output.push(log_array);\n    }\n});\n\nmsg.payload = output;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 540,
+        "wires": [
+            [
+                "6f8c645649f81cf3"
+            ]
+        ]
+    },
+    {
+        "id": "004897656b70dfc6",
+        "type": "exec",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "command": "ssconvert .node-red/csv/time.csv .node-red/csv/time.xlsx",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 690,
+        "y": 680,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "37285c719a615c57",
+        "type": "change",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mail",
+                "pt": "global",
+                "to": "payload.mail",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 420,
+        "wires": [
+            [
+                "5deedb0630424419"
+            ]
+        ]
+    },
+    {
+        "id": "d36eee43e3601f22",
+        "type": "delay",
+        "z": "62319ca4c703e31b",
+        "g": "1ddeb4c12d9f08f2",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 420,
+        "wires": [
+            [
+                "37285c719a615c57"
             ]
         ]
     },
@@ -16565,7 +15703,8 @@
             [
                 "a1b2ee428941a8f1",
                 "8f5c5e192ff25387",
-                "7e98bc6bfacbaeb9"
+                "7e98bc6bfacbaeb9",
+                "2ff1e152eed92cfe"
             ],
             []
         ]
@@ -16715,11 +15854,16 @@
                 "t": "eq",
                 "v": "resetAll",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sendExcel",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 8,
+        "outputs": 9,
         "x": 1220,
         "y": 140,
         "wires": [
@@ -16746,6 +15890,9 @@
             ],
             [
                 "5a9ea557db764206"
+            ],
+            [
+                "7b7f017470e139ec"
             ]
         ]
     },
@@ -18150,6 +17297,36 @@
         ],
         "x": 1345,
         "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2ff1e152eed92cfe",
+        "type": "debug",
+        "z": "87f0c0fcd9955ff1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7b7f017470e139ec",
+        "type": "link out",
+        "z": "87f0c0fcd9955ff1",
+        "name": "ui-send-excel-in",
+        "mode": "link",
+        "links": [
+            "1cb6b9cda6ceac39"
+        ],
+        "x": 1355,
+        "y": 460,
         "wires": []
     }
 ]
