@@ -902,123 +902,6 @@
         "h": 442
     },
     {
-        "id": "f125161e3f93cd32",
-        "type": "group",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "",
-        "style": {
-            "stroke": "#ffdf7f",
-            "label": true
-        },
-        "nodes": [
-            "1fb96b324a728f3a",
-            "8fcd7c8b9aefd9b5",
-            "332de82ea31ec6d3",
-            "ef7a40c533a420b0",
-            "e3879596c219a202",
-            "ce3bc581418c6826",
-            "18b28cc1bb01dbf6",
-            "44edfdbd842c9249",
-            "b934f33681e77fb1",
-            "20b9ba472045f860",
-            "f183a3352656cc36",
-            "c64446e2bfd83829",
-            "3be01961cb7c67bf",
-            "d7a0961e0edc10d2",
-            "5941505b8d630328",
-            "3c0dbb07a7c4dfeb",
-            "99bbd9137efd87f3",
-            "c2ef7f8f89c96f1b",
-            "74b593c8ca138f19",
-            "e547a4fb8f4225f3",
-            "165ea03957d68a7f",
-            "8acfc05ea57978d1",
-            "88c718499de4d002",
-            "969bc78e1ef21c6a",
-            "76b12a24a9f10330",
-            "fd29759f859f78be",
-            "5b070a76f56cacf5",
-            "6afc25519c8c9577",
-            "fe173012c64c1b63",
-            "b064127a233df73c",
-            "4ee6a2024d173a8d",
-            "212a4e2d614de3b6",
-            "300812fa46819f2c",
-            "826f339940ba0090",
-            "fd663b9a2d91c5eb",
-            "995859af510f1f73",
-            "fb7799c9d68225d5",
-            "175f399aa859e47a",
-            "8eaaf871de4c3f77",
-            "d1789a17d9f94c83",
-            "18cf46d8ea7de197",
-            "c9892f6b39e78fbd",
-            "ecc4c78a171e0a40",
-            "69138c48be2660c3",
-            "6da5cc9221a34e86",
-            "d3916d0ea818e0d1",
-            "b0831862b5adca9f",
-            "c33129e4a286d139",
-            "07ca3cd657052e95",
-            "1b4f0aea425c5ab0",
-            "84c8bd233c1be8e1",
-            "c898895ac7ebb164",
-            "cc24b04e14f2b423",
-            "ec0dbb48b64fd096",
-            "b3caeeab2e363f8b",
-            "d6bc83b9aed91773",
-            "6a2d69dc155d2b13",
-            "210bfa1b16c2ab28",
-            "7aefbc1f6399d686",
-            "e2094f8c5a35ff3a",
-            "8133a24772018971",
-            "38e0169d6058cbb5",
-            "e6f818d1b5a10baf",
-            "efae4af599139f48",
-            "ea4b09535699c571",
-            "64e190bb756ed758",
-            "5125290c2eca9526",
-            "b1dca32b27d8ec0c",
-            "9432ba9f9a59f9fd",
-            "064583c3f4c205c4",
-            "7c1d1c28382fdfc1",
-            "608b616dd6087371",
-            "86e365dcb00818fe",
-            "ca24fa5c5f1950a7",
-            "1fbc6f029c751822",
-            "6114155db24a1206",
-            "592dd1074dd20b1e",
-            "21d3fa23241dcd8b",
-            "1fe639f4fb7dc152",
-            "c278a7e98fc8dc68",
-            "6232e129583840b1",
-            "f01315509698de44",
-            "2a696c56a3eb2624",
-            "1ae0a4633b61b928",
-            "c13d4c9f3ddf833a",
-            "a7bd1beee673cd9d",
-            "e8d463353cae0caf",
-            "b8e80793a8a7b014",
-            "991609e35d5b5824",
-            "56f54b4c40a744cc",
-            "7d39bc5d4c049c8d",
-            "4092f882e1d274a3",
-            "28cf47aa6699fce1",
-            "bfbcc30303583728",
-            "5726493ab0c1ade6",
-            "df1657c1bf56a1b3",
-            "dc2c72730640b885",
-            "9a5c2575141ef306",
-            "2bf4d97365c61296",
-            "eceb0f47eb37f651",
-            "c46602cf2c25c0c9"
-        ],
-        "x": 1974,
-        "y": 179,
-        "w": 1412,
-        "h": 2042
-    },
-    {
         "id": "4e82a31b300de3bc",
         "type": "group",
         "z": "289ca7413559f4ba",
@@ -5200,6 +5083,7 @@
         "id": "ff0614448ec9b619",
         "type": "change",
         "z": "8446608a9ec65066",
+        "d": true,
         "name": "set delay",
         "rules": [
             {
@@ -5227,6 +5111,7 @@
         "id": "be8824eaf4472622",
         "type": "delay",
         "z": "8446608a9ec65066",
+        "d": true,
         "name": "Taktime",
         "pauseType": "delayv",
         "timeout": "10",
@@ -5252,6 +5137,7 @@
         "id": "e4150b5b64cfe05c",
         "type": "switch",
         "z": "8446608a9ec65066",
+        "d": true,
         "name": "Andon status",
         "property": "payload.status",
         "propertyType": "msg",
@@ -5293,6 +5179,7 @@
         "id": "5e7ff498eed2ef0e",
         "type": "function",
         "z": "8446608a9ec65066",
+        "d": true,
         "name": "set msg.delay to global.takt_time",
         "func": "var takt_time = global.get(\"takt_time\");\nmsg.delay = takt_time*60*1000;\nreturn msg;",
         "outputs": 1,
@@ -5312,6 +5199,7 @@
         "id": "8e7420461df0190d",
         "type": "change",
         "z": "8446608a9ec65066",
+        "d": true,
         "name": "",
         "rules": [
             {
@@ -5340,7 +5228,7 @@
         "type": "finite-state-machine",
         "z": "8446608a9ec65066",
         "name": "",
-        "fsmDefinition": "{\"state\":{\"status\":\"off_level1\"},\"transitions\":{\"off_level1\":{\"buttonPressed\":\"level1\",\"delay\":\"off_level1\"},\"level1\":{\"buttonPressed\":\"off_level1\",\"delay\":\"level2\"},\"level2\":{\"buttonPressed\":\"off_level2\"},\"off_level2\":{\"buttonPressed\":\"level1\"}}}",
+        "fsmDefinition": "{\"state\":{\"status\":\"off\"},\"transitions\":{\"off\":{\"buttonPressed\":\"on\"},\"on\":{\"buttonPressed\":\"off\"}}}",
         "sendInitialState": false,
         "sendStateWithoutChange": false,
         "showTransitionErrors": true,
@@ -5348,8 +5236,8 @@
         "y": 460,
         "wires": [
             [
-                "e4150b5b64cfe05c",
-                "c78aac36120650ee"
+                "c78aac36120650ee",
+                "e4150b5b64cfe05c"
             ]
         ]
     },
@@ -6054,7 +5942,7 @@
         "type": "function",
         "z": "24a3f1937fe18a9a",
         "name": "config csv",
-        "func": "const moment = global.get('moment')\nvar postes = global.get(\"postes\") || []\nvar date = new Date()\nvar currentDateUTC = moment(date)\npostes.forEach(function(poste) {    \n    if (poste && msg.title === poste.name) {\n        if (!poste.logs){\n            poste.logs = []\n        }\n        if (poste.logs.length > 0){\n            // Get last log\n            var last_poste = poste.logs[poste.logs.length - 1]\n            if (last_poste.status === \"level1\" || last_poste.status === \"level2\" ){\n                let duration = new Date(date).getTime() - new Date(last_poste.date).getTime();\n                let rem = duration % 1000;\n                let time = (duration - rem) / 1000;\n                poste.logs.push({\n                    \"date\": currentDateUTC,\n                    \"status\": msg.status,\n                    \"last_duration\": time\n                });\n            }\n            else {\n                \n                poste.logs.push({\n                    \"date\": currentDateUTC,\n                    \"status\": msg.status,\n                    \"last_duration\": 0\n                });\n            }\n        }\n        else {\n            poste.logs.push({\n                \"date\": currentDateUTC,\n                \"status\": msg.status,\n                \"last_duration\": 0\n            });\n        }\n    }\n});\nglobal.set(\"postes\", postes)\nreturn msg;",
+        "func": "const moment = global.get('moment')\nvar postes = global.get(\"postes\") || []\nvar date = new Date()\nvar currentDateUTC = moment(date)\npostes.forEach(function(poste) {    \n    if (poste && msg.title === poste.name) {\n        if (!poste.logs){\n            poste.logs = []\n        }\n        poste.logs.push({\n            \"date\": currentDateUTC,\n            \"id\": poste.logs.length + 1\n        });\n    }\n});\nglobal.set(\"postes\", postes)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6353,26 +6241,21 @@
         "id": "1fb96b324a728f3a",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 1",
         "env": [],
-        "x": 2460,
-        "y": 320,
+        "x": 2280,
+        "y": 1240,
         "wires": [
-            [
-                "c9892f6b39e78fbd",
-                "d3916d0ea818e0d1"
-            ]
+            []
         ]
     },
     {
         "id": "8fcd7c8b9aefd9b5",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 2",
-        "x": 2460,
-        "y": 520,
+        "x": 2340,
+        "y": 2120,
         "wires": [
             [
                 "ecc4c78a171e0a40",
@@ -6384,10 +6267,9 @@
         "id": "332de82ea31ec6d3",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 3",
-        "x": 2460,
-        "y": 720,
+        "x": 2340,
+        "y": 2320,
         "wires": [
             [
                 "c898895ac7ebb164",
@@ -6399,10 +6281,9 @@
         "id": "ef7a40c533a420b0",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 4",
-        "x": 2460,
-        "y": 920,
+        "x": 2340,
+        "y": 2520,
         "wires": [
             [
                 "d6bc83b9aed91773",
@@ -6414,10 +6295,9 @@
         "id": "e3879596c219a202",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 5",
-        "x": 2460,
-        "y": 1120,
+        "x": 2340,
+        "y": 2720,
         "wires": [
             [
                 "e2094f8c5a35ff3a",
@@ -6429,10 +6309,9 @@
         "id": "ce3bc581418c6826",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 6",
-        "x": 2460,
-        "y": 1320,
+        "x": 2340,
+        "y": 2920,
         "wires": [
             [
                 "efae4af599139f48",
@@ -6441,34 +6320,9 @@
         ]
     },
     {
-        "id": "18b28cc1bb01dbf6",
-        "type": "switch",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "Enable ?",
-        "property": "postes.0.isEnable",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 2260,
-        "y": 320,
-        "wires": [
-            [
-                "1fb96b324a728f3a"
-            ]
-        ]
-    },
-    {
         "id": "44edfdbd842c9249",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.1.isEnable",
         "propertyType": "global",
@@ -6480,8 +6334,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 520,
+        "x": 2140,
+        "y": 2120,
         "wires": [
             [
                 "8fcd7c8b9aefd9b5"
@@ -6492,7 +6346,6 @@
         "id": "b934f33681e77fb1",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.2.isEnable",
         "propertyType": "global",
@@ -6504,8 +6357,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 720,
+        "x": 2140,
+        "y": 2320,
         "wires": [
             [
                 "332de82ea31ec6d3"
@@ -6516,7 +6369,6 @@
         "id": "20b9ba472045f860",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.3.isEnable",
         "propertyType": "global",
@@ -6528,8 +6380,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 920,
+        "x": 2140,
+        "y": 2520,
         "wires": [
             [
                 "ef7a40c533a420b0"
@@ -6540,7 +6392,6 @@
         "id": "f183a3352656cc36",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.4.isEnable",
         "propertyType": "global",
@@ -6552,8 +6403,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 1120,
+        "x": 2140,
+        "y": 2720,
         "wires": [
             [
                 "e3879596c219a202"
@@ -6564,7 +6415,6 @@
         "id": "c64446e2bfd83829",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.5.isEnable",
         "propertyType": "global",
@@ -6576,8 +6426,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 1320,
+        "x": 2140,
+        "y": 2920,
         "wires": [
             [
                 "ce3bc581418c6826"
@@ -6588,7 +6438,6 @@
         "id": "3be01961cb7c67bf",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.2.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.2.timer')) {\n    global.set('postes.2.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.2.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.2.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.2.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.2.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.2.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.2.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.2.intervalId10')) {\n        clearInterval(global.get('postes.2.intervalId10'));\n        global.set('postes.2.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -6596,8 +6445,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 720,
+        "x": 3170,
+        "y": 2320,
         "wires": [
             []
         ]
@@ -6606,10 +6455,9 @@
         "id": "d7a0961e0edc10d2",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 7",
-        "x": 2460,
-        "y": 1520,
+        "x": 2340,
+        "y": 3120,
         "wires": [
             [
                 "b1dca32b27d8ec0c",
@@ -6621,7 +6469,6 @@
         "id": "5941505b8d630328",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.6.isEnable",
         "propertyType": "global",
@@ -6633,8 +6480,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 1520,
+        "x": 2140,
+        "y": 3120,
         "wires": [
             [
                 "d7a0961e0edc10d2"
@@ -6645,10 +6492,9 @@
         "id": "3c0dbb07a7c4dfeb",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 8",
-        "x": 2460,
-        "y": 1720,
+        "x": 2340,
+        "y": 3320,
         "wires": [
             [
                 "608b616dd6087371",
@@ -6660,7 +6506,6 @@
         "id": "99bbd9137efd87f3",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.7.isEnable",
         "propertyType": "global",
@@ -6672,8 +6517,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 1720,
+        "x": 2140,
+        "y": 3320,
         "wires": [
             [
                 "3c0dbb07a7c4dfeb"
@@ -6684,7 +6529,6 @@
         "id": "c2ef7f8f89c96f1b",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.7.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.7.timer')) {\n    global.set('postes.7.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.7.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.7.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.7.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n\n            node.send({timer: formattedTime});\n            global.set('postes.7.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.7.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.7.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.7.intervalId10')) {\n        clearInterval(global.get('postes.7.intervalId10'));\n        global.set('postes.7.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -6692,8 +6536,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 1720,
+        "x": 3170,
+        "y": 3320,
         "wires": [
             []
         ]
@@ -6702,10 +6546,9 @@
         "id": "74b593c8ca138f19",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 9",
-        "x": 2460,
-        "y": 1920,
+        "x": 2340,
+        "y": 3520,
         "wires": [
             [
                 "6114155db24a1206",
@@ -6717,7 +6560,6 @@
         "id": "e547a4fb8f4225f3",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.8.isEnable",
         "propertyType": "global",
@@ -6729,8 +6571,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 1920,
+        "x": 2140,
+        "y": 3520,
         "wires": [
             [
                 "74b593c8ca138f19"
@@ -6741,7 +6583,6 @@
         "id": "165ea03957d68a7f",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.8.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.8.timer')) {\n    global.set('postes.8.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.8.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.8.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.8.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.8.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.8.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.8.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.8.intervalId10')) {\n        clearInterval(global.get('postes.8.intervalId10'));\n        global.set('postes.8.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -6749,8 +6590,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 1920,
+        "x": 3170,
+        "y": 3520,
         "wires": [
             []
         ]
@@ -6759,10 +6600,9 @@
         "id": "8acfc05ea57978d1",
         "type": "subflow:8446608a9ec65066",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Station 10",
-        "x": 2460,
-        "y": 2120,
+        "x": 2340,
+        "y": 3720,
         "wires": [
             [
                 "c278a7e98fc8dc68",
@@ -6774,7 +6614,6 @@
         "id": "88c718499de4d002",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Enable ?",
         "property": "postes.9.isEnable",
         "propertyType": "global",
@@ -6786,8 +6625,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2260,
-        "y": 2120,
+        "x": 2140,
+        "y": 3720,
         "wires": [
             [
                 "8acfc05ea57978d1"
@@ -6798,7 +6637,6 @@
         "id": "969bc78e1ef21c6a",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.9.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.9.timer')) {\n    global.set('postes.9.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.9.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.9.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.9.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n            \n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.9.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.9.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.9.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.9.intervalId10')) {\n        clearInterval(global.get('postes.9.intervalId10'));\n        global.set('postes.9.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -6806,8 +6644,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 2120,
+        "x": 3170,
+        "y": 3720,
         "wires": [
             []
         ]
@@ -6816,18 +6654,16 @@
         "id": "76b12a24a9f10330",
         "type": "comment",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Gestion Andon par poste",
         "info": "Chaque ligne représente le gestion d'un poste \n - Même si on a filtré le signal, on doit limité à 1ms/s pour éviter les spams\n - Si le poste est à l'état IsEnable, on envoi le signale dans la machine à états \n    Fonctionnement machine à états :\n        On gère un ou plusieurs \"états\" selon des informations en entré du node :\n            Dans notre cas, on a 4 états:\n                off_lev1 => état par défaut + état si appui alors que le status est lev1\n                lev1 => premier niveau d'aide après appui btn\n                lev2 => deuxième niveau d 'aide si le taktTime est atteint\n                off_lev2 => état si appui btn alors que le status est lev2  \nNB : Le taktTime est une variable renseigné par l'utilisateur qui détermine à partir de combien de temps un andon passe du niveau 1 au niveau 2 une fois qu il est activé\n - Selon la sortie de la machine à états, on enregistre dans le \"GLOBAL\" le status et on lance le timer via une fonction en Javascript",
-        "x": 2110,
-        "y": 220,
+        "x": 1930,
+        "y": 1140,
         "wires": []
     },
     {
         "id": "fd29759f859f78be",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -6843,8 +6679,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3040,
-        "y": 2120,
+        "x": 2920,
+        "y": 3720,
         "wires": [
             [
                 "969bc78e1ef21c6a"
@@ -6855,7 +6691,6 @@
         "id": "5b070a76f56cacf5",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -6871,8 +6706,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1920,
+        "x": 2910,
+        "y": 3520,
         "wires": [
             [
                 "165ea03957d68a7f"
@@ -6883,7 +6718,6 @@
         "id": "6afc25519c8c9577",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -6899,8 +6733,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1720,
+        "x": 2910,
+        "y": 3320,
         "wires": [
             [
                 "c2ef7f8f89c96f1b"
@@ -6911,7 +6745,6 @@
         "id": "fe173012c64c1b63",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -6927,8 +6760,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1520,
+        "x": 2910,
+        "y": 3120,
         "wires": [
             [
                 "b064127a233df73c"
@@ -6939,7 +6772,6 @@
         "id": "b064127a233df73c",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.6.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.6.timer')) {\n    global.set('postes.6.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.6.count' , count)\n\n\nvar count = global.get('postes.6.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.6.timer')) {\n    global.set('postes.6.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.6.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.6.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.6.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n            \n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.6.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.6.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.6.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.6.intervalId10')) {\n        clearInterval(global.get('postes.6.intervalId10'));\n        global.set('postes.6.intervalId10', null);\n    }\n}\n\nreturn msg;\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.6.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.6.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.6.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.6.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.6.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.6.intervalId10')) {\n        clearInterval(global.get('postes.6.intervalId10'));\n        global.set('postes.6.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -6947,8 +6779,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 1520,
+        "x": 3170,
+        "y": 3120,
         "wires": [
             []
         ]
@@ -6957,7 +6789,6 @@
         "id": "4ee6a2024d173a8d",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -6973,8 +6804,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1320,
+        "x": 2910,
+        "y": 2920,
         "wires": [
             [
                 "212a4e2d614de3b6"
@@ -6985,7 +6816,6 @@
         "id": "212a4e2d614de3b6",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.5.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.5.timer')) {\n    global.set('postes.5.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.5.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.5.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.5.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.5.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.5.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.5.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.5.intervalId10')) {\n        clearInterval(global.get('postes.5.intervalId10'));\n        global.set('postes.5.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -6993,8 +6823,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 1320,
+        "x": 3170,
+        "y": 2920,
         "wires": [
             []
         ]
@@ -7003,7 +6833,6 @@
         "id": "300812fa46819f2c",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7019,8 +6848,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1120,
+        "x": 2910,
+        "y": 2720,
         "wires": [
             [
                 "826f339940ba0090"
@@ -7031,7 +6860,6 @@
         "id": "826f339940ba0090",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.4.count') || 0\nvar formattedTime;\n\nif(!global.get('postes.4.timer')) {\n    global.set('postes.4.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.4.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.4.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.4.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.4.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.4.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.4.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.4.intervalId10')) {\n        clearInterval(global.get('postes.4.intervalId10'));\n        global.set('postes.4.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -7039,8 +6867,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 1120,
+        "x": 3170,
+        "y": 2720,
         "wires": [
             []
         ]
@@ -7049,7 +6877,6 @@
         "id": "fd663b9a2d91c5eb",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7065,8 +6892,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 920,
+        "x": 2910,
+        "y": 2520,
         "wires": [
             [
                 "995859af510f1f73"
@@ -7077,7 +6904,6 @@
         "id": "995859af510f1f73",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.3.count') || 0\nvar formattedTime;\n\nif (!global.get('postes.3.timer')) {\n    global.set('postes.3.timer', '00h 00m 00s')\n}\nif (msg.status == \"level1\") {\n    count++\n}\nglobal.set('postes.3.count', count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.3.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.3.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function () {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n\n            node.send({ timer: formattedTime });\n            global.set('postes.3.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n\n        }, 1000); // Mettre à jour toutes les secondes\n    }\n\n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.3.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.3.timer', formattedTime)\n    node.send({ timer: formattedTime });\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.3.intervalId10')) {\n        clearInterval(global.get('postes.3.intervalId10'));\n        global.set('postes.3.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -7085,8 +6911,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 920,
+        "x": 3170,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -7095,7 +6921,6 @@
         "id": "fb7799c9d68225d5",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7111,8 +6936,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 720,
+        "x": 2910,
+        "y": 2320,
         "wires": [
             [
                 "3be01961cb7c67bf"
@@ -7123,7 +6948,6 @@
         "id": "175f399aa859e47a",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7139,8 +6963,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 520,
+        "x": 2910,
+        "y": 2120,
         "wires": [
             [
                 "8eaaf871de4c3f77"
@@ -7151,7 +6975,6 @@
         "id": "8eaaf871de4c3f77",
         "type": "function",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "count + timer",
         "func": "var count = global.get('postes.1.count') || 0\nvar formattedTime;\nif(!global.get('postes.1.timer')) {\n    global.set('postes.1.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.1.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.1.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.1.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            var elapsedTime = currentTime - startTime;\n    \n\n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.1.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.1.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.1.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.1.intervalId10')) {\n        clearInterval(global.get('postes.1.intervalId10'));\n        global.set('postes.1.intervalId10', null);\n    }\n}\n\nreturn msg;",
         "outputs": 1,
@@ -7159,54 +6982,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3290,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d1789a17d9f94c83",
-        "type": "change",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "postes.0.status",
-                "pt": "global",
-                "to": "status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 3010,
-        "y": 320,
-        "wires": [
-            [
-                "18cf46d8ea7de197"
-            ]
-        ]
-    },
-    {
-        "id": "18cf46d8ea7de197",
-        "type": "function",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "count + timer",
-        "func": "var count = global.get('postes.0.count') || 0\nvar formattedTime;\nvar elapsedTime;\n\nif(!global.get('postes.0.timer')) {\n    global.set('postes.0.timer', '00h 00m 00s')\n}\nif( msg.status == \"level1\" ) {\n    count++\n}\nglobal.set('postes.0.count' , count)\n\n\n\n// Récupérer la valeur de startTime depuis le contexte global\nvar startTime = global.get('postes.0.startTime10') || 0;\nvar isActive;\n\nif (msg.status === \"level1\") {\n    startTime = Date.now();\n    // Enregistrer la nouvelle valeur de startTime dans le contexte global\n    global.set('postes.0.startTime', startTime);\n    isActive = true;\n    // Définir un intervalle pour mettre à jour le temps écoulé toutes les secondes\n    if (isActive) {\n        var intervalId = setInterval(function() {\n            var currentTime = Date.now();\n            elapsedTime = currentTime - startTime;\n            \n            var days = Math.floor(elapsedTime / 86400000);\n            var hours = Math.floor((elapsedTime % 86400000) / 3600000);\n            var minutes = Math.floor((elapsedTime % 3600000) / 60000);\n            var seconds = Math.floor((elapsedTime % 60000) / 1000);\n\n            // Formater le temps écoulé en fonction de s'il est supérieur à 24 heures\n            if (days > 0) {\n                formattedTime = ('0' + days).slice(-2) + 'd ' +\n                    ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm';\n            } else {\n                formattedTime = ('0' + hours).slice(-2) + 'h ' +\n                    ('0' + minutes).slice(-2) + 'm ' +\n                    ('0' + seconds).slice(-2) + 's';\n            }\n                                \n            node.send({timer: formattedTime});\n            global.set('postes.0.timer', formattedTime)\n            // Envoyer le temps écoulé au nœud Debug\n          \n        }, 1000); // Mettre à jour toutes les secondes\n    }\n    \n    // Enregistrer l'ID de l'intervalle dans le contexte global\n    global.set('postes.0.intervalId10', intervalId);\n} else if (msg.status === \"off\") {\n    isActive = false;\n    formattedTime = \"00h 00m 00s\"\n    global.set('postes.0.elapsedTime', 0)\n\n    global.set('postes.0.timer', formattedTime)\n    node.send({timer: formattedTime});\n    // Supprimer l'intervalle lors de l'arrêt\n    if (global.get('postes.0.intervalId10')) {\n        clearInterval(global.get('postes.0.intervalId10'));\n        global.set('postes.0.intervalId10', null);\n    }\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 3270,
-        "y": 320,
+        "x": 3170,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -7285,38 +7062,9 @@
         "wires": []
     },
     {
-        "id": "c9892f6b39e78fbd",
-        "type": "change",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "title",
-                "pt": "msg",
-                "to": "postes.0.name",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2690,
-        "y": 380,
-        "wires": [
-            [
-                "69138c48be2660c3"
-            ]
-        ]
-    },
-    {
         "id": "ecc4c78a171e0a40",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7332,8 +7080,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 580,
+        "x": 2570,
+        "y": 2180,
         "wires": [
             [
                 "6da5cc9221a34e86"
@@ -7344,96 +7092,33 @@
         "id": "69138c48be2660c3",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert1",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2835,
-        "y": 380,
+        "x": 2615,
+        "y": 1080,
         "wires": []
     },
     {
         "id": "6da5cc9221a34e86",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert2",
         "mode": "link",
         "links": [
             "ea580bbb65fc5f4e"
         ],
-        "x": 2815,
-        "y": 580,
+        "x": 2695,
+        "y": 2180,
         "wires": []
-    },
-    {
-        "id": "d3916d0ea818e0d1",
-        "type": "switch",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "off",
-        "property": "status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "off",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 2,
-        "x": 2670,
-        "y": 320,
-        "wires": [
-            [
-                "b0831862b5adca9f"
-            ],
-            [
-                "d1789a17d9f94c83"
-            ]
-        ]
-    },
-    {
-        "id": "b0831862b5adca9f",
-        "type": "change",
-        "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "status",
-                "pt": "msg",
-                "to": "off",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2800,
-        "y": 260,
-        "wires": [
-            [
-                "d1789a17d9f94c83"
-            ]
-        ]
     },
     {
         "id": "c33129e4a286d139",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -7450,8 +7135,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 520,
+        "x": 2550,
+        "y": 2120,
         "wires": [
             [
                 "07ca3cd657052e95"
@@ -7465,7 +7150,6 @@
         "id": "07ca3cd657052e95",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7481,8 +7165,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 480,
+        "x": 2700,
+        "y": 2080,
         "wires": [
             [
                 "175f399aa859e47a"
@@ -7493,7 +7177,6 @@
         "id": "1b4f0aea425c5ab0",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7509,8 +7192,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 780,
+        "x": 2570,
+        "y": 2380,
         "wires": [
             [
                 "84c8bd233c1be8e1"
@@ -7521,22 +7204,20 @@
         "id": "84c8bd233c1be8e1",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert3",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2815,
-        "y": 780,
+        "x": 2695,
+        "y": 2380,
         "wires": []
     },
     {
         "id": "c898895ac7ebb164",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -7553,8 +7234,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 720,
+        "x": 2550,
+        "y": 2320,
         "wires": [
             [
                 "cc24b04e14f2b423"
@@ -7568,7 +7249,6 @@
         "id": "cc24b04e14f2b423",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7584,8 +7264,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 680,
+        "x": 2700,
+        "y": 2280,
         "wires": [
             [
                 "fb7799c9d68225d5"
@@ -7596,7 +7276,6 @@
         "id": "ec0dbb48b64fd096",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7612,8 +7291,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 980,
+        "x": 2570,
+        "y": 2580,
         "wires": [
             [
                 "b3caeeab2e363f8b"
@@ -7624,22 +7303,20 @@
         "id": "b3caeeab2e363f8b",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert4",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2815,
-        "y": 980,
+        "x": 2695,
+        "y": 2580,
         "wires": []
     },
     {
         "id": "d6bc83b9aed91773",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -7656,8 +7333,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 920,
+        "x": 2550,
+        "y": 2520,
         "wires": [
             [
                 "6a2d69dc155d2b13"
@@ -7671,7 +7348,6 @@
         "id": "6a2d69dc155d2b13",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7687,8 +7363,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 880,
+        "x": 2700,
+        "y": 2480,
         "wires": [
             [
                 "fd663b9a2d91c5eb"
@@ -7699,7 +7375,6 @@
         "id": "210bfa1b16c2ab28",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7715,8 +7390,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1180,
+        "x": 2570,
+        "y": 2780,
         "wires": [
             [
                 "7aefbc1f6399d686"
@@ -7727,22 +7402,20 @@
         "id": "7aefbc1f6399d686",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert5",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2815,
-        "y": 1180,
+        "x": 2695,
+        "y": 2780,
         "wires": []
     },
     {
         "id": "e2094f8c5a35ff3a",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -7759,8 +7432,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 1120,
+        "x": 2550,
+        "y": 2720,
         "wires": [
             [
                 "8133a24772018971"
@@ -7774,7 +7447,6 @@
         "id": "8133a24772018971",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7790,8 +7462,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 1080,
+        "x": 2700,
+        "y": 2680,
         "wires": [
             [
                 "300812fa46819f2c"
@@ -7802,7 +7474,6 @@
         "id": "38e0169d6058cbb5",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7818,8 +7489,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1380,
+        "x": 2570,
+        "y": 2980,
         "wires": [
             [
                 "e6f818d1b5a10baf"
@@ -7830,21 +7501,19 @@
         "id": "e6f818d1b5a10baf",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert6",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91"
         ],
-        "x": 2815,
-        "y": 1380,
+        "x": 2695,
+        "y": 2980,
         "wires": []
     },
     {
         "id": "efae4af599139f48",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -7861,8 +7530,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 1320,
+        "x": 2550,
+        "y": 2920,
         "wires": [
             [
                 "ea4b09535699c571"
@@ -7876,7 +7545,6 @@
         "id": "ea4b09535699c571",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7892,8 +7560,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 1280,
+        "x": 2700,
+        "y": 2880,
         "wires": [
             [
                 "4ee6a2024d173a8d"
@@ -7904,7 +7572,6 @@
         "id": "64e190bb756ed758",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7920,8 +7587,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1580,
+        "x": 2570,
+        "y": 3180,
         "wires": [
             [
                 "5125290c2eca9526"
@@ -7932,21 +7599,19 @@
         "id": "5125290c2eca9526",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert7",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91"
         ],
-        "x": 2815,
-        "y": 1580,
+        "x": 2695,
+        "y": 3180,
         "wires": []
     },
     {
         "id": "b1dca32b27d8ec0c",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -7963,8 +7628,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 1520,
+        "x": 2550,
+        "y": 3120,
         "wires": [
             [
                 "9432ba9f9a59f9fd"
@@ -7978,7 +7643,6 @@
         "id": "9432ba9f9a59f9fd",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -7994,8 +7658,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 1480,
+        "x": 2700,
+        "y": 3080,
         "wires": [
             [
                 "fe173012c64c1b63"
@@ -8006,7 +7670,6 @@
         "id": "064583c3f4c205c4",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -8022,8 +7685,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1780,
+        "x": 2570,
+        "y": 3380,
         "wires": [
             [
                 "7c1d1c28382fdfc1"
@@ -8034,21 +7697,19 @@
         "id": "7c1d1c28382fdfc1",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert8",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91"
         ],
-        "x": 2815,
-        "y": 1780,
+        "x": 2695,
+        "y": 3380,
         "wires": []
     },
     {
         "id": "608b616dd6087371",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -8065,8 +7726,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 1720,
+        "x": 2550,
+        "y": 3320,
         "wires": [
             [
                 "86e365dcb00818fe"
@@ -8080,7 +7741,6 @@
         "id": "86e365dcb00818fe",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -8096,8 +7756,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 1680,
+        "x": 2700,
+        "y": 3280,
         "wires": [
             [
                 "6afc25519c8c9577"
@@ -8108,7 +7768,6 @@
         "id": "ca24fa5c5f1950a7",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -8124,8 +7783,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1980,
+        "x": 2570,
+        "y": 3580,
         "wires": [
             [
                 "1fbc6f029c751822"
@@ -8136,21 +7795,19 @@
         "id": "1fbc6f029c751822",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert9",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91"
         ],
-        "x": 2815,
-        "y": 1980,
+        "x": 2695,
+        "y": 3580,
         "wires": []
     },
     {
         "id": "6114155db24a1206",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -8167,8 +7824,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 1920,
+        "x": 2550,
+        "y": 3520,
         "wires": [
             [
                 "592dd1074dd20b1e"
@@ -8182,7 +7839,6 @@
         "id": "592dd1074dd20b1e",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -8198,8 +7854,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 1880,
+        "x": 2700,
+        "y": 3480,
         "wires": [
             [
                 "5b070a76f56cacf5"
@@ -8210,7 +7866,6 @@
         "id": "21d3fa23241dcd8b",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -8226,8 +7881,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 2180,
+        "x": 2570,
+        "y": 3780,
         "wires": [
             [
                 "1fe639f4fb7dc152"
@@ -8238,21 +7893,19 @@
         "id": "1fe639f4fb7dc152",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "Alert10",
         "mode": "link",
         "links": [
             "4e05d945f9c84f91"
         ],
-        "x": 2815,
-        "y": 2180,
+        "x": 2695,
+        "y": 3780,
         "wires": []
     },
     {
         "id": "c278a7e98fc8dc68",
         "type": "switch",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off",
         "property": "status",
         "propertyType": "msg",
@@ -8269,8 +7922,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 2670,
-        "y": 2120,
+        "x": 2550,
+        "y": 3720,
         "wires": [
             [
                 "6232e129583840b1"
@@ -8284,7 +7937,6 @@
         "id": "6232e129583840b1",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "rules": [
             {
@@ -8300,8 +7952,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2820,
-        "y": 2080,
+        "x": 2700,
+        "y": 3680,
         "wires": [
             [
                 "fd29759f859f78be"
@@ -8406,7 +8058,6 @@
         "id": "f01315509698de44",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8420,11 +8071,12 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 320,
+        "x": 1870,
+        "y": 1280,
         "wires": [
             [
-                "18b28cc1bb01dbf6"
+                "ccf283888b01dab5",
+                "8962054b21289cd5"
             ]
         ]
     },
@@ -8432,7 +8084,6 @@
         "id": "2a696c56a3eb2624",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8446,8 +8097,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 520,
+        "x": 1970,
+        "y": 2120,
         "wires": [
             [
                 "44edfdbd842c9249"
@@ -8458,7 +8109,6 @@
         "id": "1ae0a4633b61b928",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8472,8 +8122,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 720,
+        "x": 1970,
+        "y": 2320,
         "wires": [
             [
                 "b934f33681e77fb1"
@@ -8484,7 +8134,6 @@
         "id": "c13d4c9f3ddf833a",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8498,8 +8147,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 920,
+        "x": 1970,
+        "y": 2520,
         "wires": [
             [
                 "20b9ba472045f860"
@@ -8510,7 +8159,6 @@
         "id": "a7bd1beee673cd9d",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8524,8 +8172,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 1120,
+        "x": 1970,
+        "y": 2720,
         "wires": [
             [
                 "f183a3352656cc36"
@@ -8536,7 +8184,6 @@
         "id": "e8d463353cae0caf",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8550,8 +8197,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 1320,
+        "x": 1970,
+        "y": 2920,
         "wires": [
             [
                 "c64446e2bfd83829"
@@ -8562,7 +8209,6 @@
         "id": "b8e80793a8a7b014",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8576,8 +8222,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 1520,
+        "x": 1970,
+        "y": 3120,
         "wires": [
             [
                 "5941505b8d630328"
@@ -8588,7 +8234,6 @@
         "id": "991609e35d5b5824",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8602,8 +8247,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 1720,
+        "x": 1970,
+        "y": 3320,
         "wires": [
             [
                 "99bbd9137efd87f3"
@@ -8614,7 +8259,6 @@
         "id": "56f54b4c40a744cc",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8628,8 +8272,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 1920,
+        "x": 1970,
+        "y": 3520,
         "wires": [
             [
                 "e547a4fb8f4225f3"
@@ -8640,7 +8284,6 @@
         "id": "7d39bc5d4c049c8d",
         "type": "delay",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -8654,8 +8297,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 2090,
-        "y": 2120,
+        "x": 1970,
+        "y": 3720,
         "wires": [
             [
                 "88c718499de4d002"
@@ -8711,17 +8354,16 @@
         "id": "4092f882e1d274a3",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-1 out",
         "links": [
             "ae37488617b90d19",
             "f445ac392e4e0b48"
         ],
-        "x": 2345,
-        "y": 260,
+        "x": 2125,
+        "y": 1000,
         "wires": [
             [
-                "1fb96b324a728f3a"
+                "8962054b21289cd5"
             ]
         ]
     },
@@ -8729,14 +8371,13 @@
         "id": "28cf47aa6699fce1",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-2 out",
         "links": [
             "e5acf3edad77f9d5",
             "97f89fe0c968735b"
         ],
-        "x": 2325,
-        "y": 460,
+        "x": 2205,
+        "y": 2060,
         "wires": [
             [
                 "8fcd7c8b9aefd9b5"
@@ -8747,14 +8388,13 @@
         "id": "bfbcc30303583728",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-3 out",
         "links": [
             "aed0cb8bd02dc339",
             "28bf27456043b398"
         ],
-        "x": 2325,
-        "y": 660,
+        "x": 2205,
+        "y": 2260,
         "wires": [
             [
                 "332de82ea31ec6d3"
@@ -8765,14 +8405,13 @@
         "id": "5726493ab0c1ade6",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-4 out",
         "links": [
             "f30c376ffed9a922",
             "a9947d5ca8dc9d7f"
         ],
-        "x": 2325,
-        "y": 860,
+        "x": 2205,
+        "y": 2460,
         "wires": [
             [
                 "ef7a40c533a420b0"
@@ -8783,14 +8422,13 @@
         "id": "df1657c1bf56a1b3",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-5 out",
         "links": [
             "08d3567bc83b0afd",
             "2f538af24a379553"
         ],
-        "x": 2325,
-        "y": 1060,
+        "x": 2205,
+        "y": 2660,
         "wires": [
             [
                 "e3879596c219a202"
@@ -8801,14 +8439,13 @@
         "id": "dc2c72730640b885",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-6 out",
         "links": [
             "329a27c6699d80d9",
             "8514a91cfc6fb5e0"
         ],
-        "x": 2325,
-        "y": 1260,
+        "x": 2205,
+        "y": 2860,
         "wires": [
             [
                 "ce3bc581418c6826"
@@ -8819,14 +8456,13 @@
         "id": "9a5c2575141ef306",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-7 out",
         "links": [
             "8a89971bbd592ba6",
             "33cff550cfeeeebf"
         ],
-        "x": 2325,
-        "y": 1460,
+        "x": 2205,
+        "y": 3060,
         "wires": [
             [
                 "d7a0961e0edc10d2"
@@ -8837,14 +8473,13 @@
         "id": "2bf4d97365c61296",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-8 out",
         "links": [
             "3b11bb8461b4ea3e",
             "8a814eedd4086299"
         ],
-        "x": 2325,
-        "y": 1660,
+        "x": 2205,
+        "y": 3260,
         "wires": [
             [
                 "3c0dbb07a7c4dfeb"
@@ -8855,14 +8490,13 @@
         "id": "eceb0f47eb37f651",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-9 out",
         "links": [
             "e6232429384f83c5",
             "45a19e4bd4c5d0c3"
         ],
-        "x": 2325,
-        "y": 1860,
+        "x": 2205,
+        "y": 3460,
         "wires": [
             [
                 "74b593c8ca138f19"
@@ -8873,14 +8507,13 @@
         "id": "c46602cf2c25c0c9",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
-        "g": "f125161e3f93cd32",
         "name": "off-10 out",
         "links": [
             "e2f50cd5c571949b",
             "37e18fa48036fc30"
         ],
-        "x": 2325,
-        "y": 2060,
+        "x": 2205,
+        "y": 3660,
         "wires": [
             [
                 "8acfc05ea57978d1"
@@ -9343,8 +8976,8 @@
         "type": "subflow:24a3f1937fe18a9a",
         "z": "8d2fa3bfaacbccf6",
         "name": "",
-        "x": 410,
-        "y": 1600,
+        "x": 3270,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -9361,11 +8994,77 @@
             "6da5cc9221a34e86",
             "69138c48be2660c3"
         ],
-        "x": 245,
-        "y": 1600,
+        "x": 3105,
+        "y": 1080,
         "wires": [
             [
                 "2baa941dca8d6d5b"
+            ]
+        ]
+    },
+    {
+        "id": "ccf283888b01dab5",
+        "type": "debug",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2110,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "8962054b21289cd5",
+        "type": "finite-state-machine",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "fsmDefinition": "{\"state\":{\"status\":\"off\"},\"transitions\":{\"off\":{\"buttonPressed\":\"on\"},\"on\":{\"buttonPressed\":\"off\"}}}",
+        "sendInitialState": false,
+        "sendStateWithoutChange": false,
+        "showTransitionErrors": true,
+        "x": 2230,
+        "y": 1080,
+        "wires": [
+            [
+                "b47b49244d6b9335"
+            ]
+        ]
+    },
+    {
+        "id": "b47b49244d6b9335",
+        "type": "change",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "status",
+                "pt": "msg",
+                "to": "payload.status",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.status",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2460,
+        "y": 1080,
+        "wires": [
+            [
+                "69138c48be2660c3"
             ]
         ]
     },
@@ -9544,7 +9243,7 @@
         "z": "62319ca4c703e31b",
         "g": "1ddeb4c12d9f08f2",
         "name": "config logs duration",
-        "func": "let output = []\nmsg.log.forEach(function (poste) {\n    if (poste && poste.logs) {\n        let previousLog = null;\n        let log_array = [poste.name];\n        poste.logs.forEach(function (log) {\n            if (previousLog) {\n                let duration = log.last_duration + previousLog.last_duration;\n                let sec = duration % 60;\n                duration = (duration - sec) / 60;\n                sec = sec < 10 ? \"0\" + sec : sec;\n                let min = duration % 60;\n                duration = (duration - min) / 60;\n                min = min < 10 ? \"0\" + min : min;\n                let hour = duration < 10 ? \"0\" + duration : duration;\n                let totalTime = \"\"\n                totalTime += hour + \":\" + min + \":\" + sec;\n                \n                if (previousLog.status === 'level1' && log.status !== 'level2' || previousLog.status === 'level2') {\n                    log_array.push(totalTime);\n                    previousLog = null;\n                }\n            }\n            previousLog = log;\n        });\n        output.push(log_array);\n    }\n});\n\nmsg.payload = output;\nreturn msg;",
+        "func": "let output = []\nfor (let i = 0; i < msg.log.length - 1; i++) {\n    let poste = msg.log[i];\n    if (poste && poste.logs) {\n        let nextPoste = msg.log[i + 1];\n        let log_array = [poste.name];\n        for (let j = 0; j < poste.logs.length; j++) {\n            let log = poste.logs[j];\n            let nextLog = nextPoste && nextPoste.logs && nextPoste.logs[j] ? nextPoste.logs[j] : null;\n            if (nextLog) {\n                let duration = new Date(nextLog.date).getTime() - new Date(log.date).getTime();\n                let sec = duration % 60;\n                duration = (duration - sec) / 60;\n                sec = sec < 10 ? \"0\" + sec : sec;\n                let min = duration % 60;\n                duration = (duration - min) / 60;\n                min = min < 10 ? \"0\" + min : min;\n                let hour = duration < 10 ? \"0\" + duration : duration;\n                let totalTime = \"\"\n                totalTime += hour + \":\" + min + \":\" + sec;\n\n                log_array.push(totalTime);\n            }\n        }\n        output.push(log_array);\n    }\n}\n\nmsg.payload = output;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
