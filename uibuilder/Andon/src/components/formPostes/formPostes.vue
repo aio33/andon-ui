@@ -331,7 +331,6 @@ module.exports = {
             postes: [
                 {
                     name: "",
-                    isEnable: false,
                     count: 0,
                     isLearning: false,
                     isDeleting: false,
@@ -461,7 +460,7 @@ module.exports = {
     },
     methods: {
         shouldDisableLearnButton(index) {
-            return this.selectedLearnIndex !== null && this.selectedLearnIndex !== index || this.postes[index].isEnable === false
+            return this.selectedLearnIndex !== null && this.selectedLearnIndex !== index 
         },
         shouldDisableControlButton(index) {
             return this.postes[index].isEnable === false || this.postes[index].id == undefined || this.postes[index].isLearning
