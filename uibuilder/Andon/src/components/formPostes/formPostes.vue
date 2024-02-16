@@ -534,7 +534,7 @@ module.exports = {
 
         isCheckboxChecked(index) {
             var status = this.postes[index].status;
-            return status === 'level1' || status === 'level2';
+            return status === 'on'
         },
         sendExcel() {
             console.log(this.mail)
