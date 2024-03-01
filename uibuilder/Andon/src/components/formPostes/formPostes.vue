@@ -46,7 +46,6 @@
             <div class="form-title row">
                 <h1 class="col col-border">NAME</h1>
                 <h1 class="col">BUTTON</h1>
-                <h1 class="col">CONTROL</h1>
             </div>
             <!-- eslint-disable -->
             <template v-for="(poste, index)  in postes">
@@ -60,13 +59,6 @@
                             LEARN</button>
                         <button class="btn btn-primary poste-btn" @click="sendDelStatus(index)"
                             :disabled="shouldDisableDelButton(index)" variant="outline-danger">DEL</button>
-                    </div>
-                    <div class="col">
-                        <label class="switch">
-                            <input type="checkbox" :checked="isCheckboxChecked(index)" @click="sendControlCmd(index)"
-                                :disabled="shouldDisableControlButton(index)">
-                            <span class="slider round"></span>
-                        </label>
                     </div>
                 </div>
             </template>
@@ -259,69 +251,6 @@
     padding: 0px;
     margin-top: 1.5vh;
 }
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 4vw;
-    height: 3vh;
-    margin-top: 1vh;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-/* The slider */
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 2.5vh;
-    width: 2.5vh;
-    left: 0.3vw;
-    bottom: 0.3vh;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked+.slider {
-    background-color: #2196F3;
-}
-
-input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked+.slider:before {
-    -webkit-transform: translateX(2vw);
-    -ms-transform: translateX(2vw);
-    transform: translateX(2vw);
-}
-
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
 </style>
 
 <script>
@@ -460,11 +389,9 @@ module.exports = {
     },
     methods: {
         shouldDisableLearnButton(index) {
-            return this.selectedLearnIndex !== null && this.selectedLearnIndex !== index 
+            return this.selectedLearnIndex !== null && this.selectedLearnIndex !== index
         },
-        shouldDisableControlButton(index) {
-            return this.postes[index].isEnable === false || this.postes[index].id == undefined || this.postes[index].isLearning
-        },
+
 
         shouldDisableDelButton() {
             return this.areDelButtonsDisable
@@ -486,19 +413,6 @@ module.exports = {
             uibuilder.send({
                 'topic': 'del-' + index,
             })
-        },
-        sendControlCmd(index) {
-            console.log('before if 1', this.postes[index])
-
-            if (this.postes[index].status == "off" && this.postes[index].isEnable) {
-                uibuilder.send({
-                    'topic': 'on-' + index,
-                })
-            } else {
-                uibuilder.send({
-                    'topic': 'off-' + index,
-                })
-            }
         },
         sendLineName() {
             uibuilder.send({
@@ -530,11 +444,6 @@ module.exports = {
                     'takTime': parseFloat(this.takTime)
                 }
             })
-        },
-
-        isCheckboxChecked(index) {
-            var status = this.postes[index].status;
-            return status === 'on'
         },
         sendExcel() {
             console.log(this.mail)

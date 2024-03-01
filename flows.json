@@ -895,9 +895,7 @@
             "8d53f1cf17c629f2"
         ],
         "x": 1734,
-        "y": 219,
-        "w": 522,
-        "h": 362
+        "y": 219
     },
     {
         "id": "b21a3d871e9b9e2f",
@@ -955,9 +953,7 @@
             "1f82beed7edbbe3e"
         ],
         "x": 234,
-        "y": 79,
-        "w": 1262,
-        "h": 1262
+        "y": 79
     },
     {
         "id": "8f2dcb6df9878af5",
@@ -1046,39 +1042,7 @@
             "1eab3703f0d326bf"
         ],
         "x": 454,
-        "y": 99,
-        "w": 2372,
-        "h": 282
-    },
-    {
-        "id": "1ddeb4c12d9f08f2",
-        "type": "group",
-        "z": "62319ca4c703e31b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "631a757bc6a71a93",
-            "b26b2b92b0be3bea",
-            "1cb6b9cda6ceac39",
-            "015436d1df1d0742",
-            "5deedb0630424419",
-            "aadf1d998a58d891",
-            "2ebc29cd7da8c357",
-            "6f8c645649f81cf3",
-            "6b4563d4c04f7c22",
-            "004897656b70dfc6",
-            "37285c719a615c57",
-            "d36eee43e3601f22"
-        ],
-        "x": 154,
-        "y": 239
+        "y": 99
     },
     {
         "id": "cd7adfa5108867af",
@@ -2419,6 +2383,16 @@
         "group": "87e414bbb217edd6",
         "order": 7,
         "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ea37b62c5423b881",
+        "type": "ui_spacer",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "spacer",
+        "group": "1f46670dab54c23d",
+        "order": 1,
+        "width": 1,
         "height": 1
     },
     {
@@ -5886,7 +5860,7 @@
         "id": "e59c5530e359a58a",
         "type": "function",
         "z": "24a3f1937fe18a9a",
-        "name": "config csv",
+        "name": "poste.logs",
         "func": "const moment = global.get('moment')\nvar postes = global.get(\"postes\") || []\nvar date = new Date()\nvar currentDateUTC = moment(date)\npostes.forEach(function(poste) {    \n    if (poste && msg.title === poste.name) {\n        if (!poste.logs){\n            poste.logs = []\n        }\n        poste.logs.push({\n            \"date\": currentDateUTC,\n            \"id\": poste.logs.length + 1\n        });\n    }\n});\nglobal.set(\"postes\", postes)\nreturn msg;",
         "outputs": 1,
         "timeout": "",
@@ -5894,7 +5868,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
+        "x": 450,
         "y": 280,
         "wires": [
             [
@@ -5980,16 +5954,16 @@
         "y": 1340,
         "wires": [
             [
-                "f34b678cba1b8031"
+                "7a9653f07c6c21e1"
             ],
             [
-                "f34b678cba1b8031"
+                "7a9653f07c6c21e1"
             ],
             [
-                "f34b678cba1b8031"
+                "7a9653f07c6c21e1"
             ],
             [
-                "f34b678cba1b8031"
+                "7a9653f07c6c21e1"
             ]
         ],
         "info": "Avec un répétiteur on connait si on appuie ou si on relache le bouton grâce à msg.meta.payload :\n\nSi appui sur aucun rocker ou IA : msg.meta.payload = 10 à la montée puis msg.meta.payload = 00 \n\nSi appui sur OA : msg.meta.payload = 30 à la montée puis msg.meta.payload = 20\n\nSi appui sur IB : msg.meta.payload = 50 à la montée puis msg.meta.payload = 40 \n\nSi appui sur OB : msg.meta.payload = 70 à la montée puis msg.meta.payload = 60"
@@ -6016,22 +5990,46 @@
                 "t": "eq",
                 "v": "postes.2.id",
                 "vt": "global"
+            },
+            {
+                "t": "eq",
+                "v": "postes.3.id",
+                "vt": "global"
+            },
+            {
+                "t": "eq",
+                "v": "postes.4.id",
+                "vt": "global"
+            },
+            {
+                "t": "eq",
+                "v": "postes.5.id",
+                "vt": "global"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 6,
         "x": 1630,
         "y": 1340,
         "wires": [
             [
-                "8962054b21289cd5"
+                "b47b49244d6b9335"
             ],
             [
-                "79380bff74a4fc8a"
+                "65d2037eaddff8a3"
             ],
             [
-                "e9c562cc374fd619"
+                "9d66973f04d5c0f3"
+            ],
+            [
+                "10f3a9dcd57b7e83"
+            ],
+            [
+                "204e8bf8a6c39767"
+            ],
+            [
+                "e43f7d0cb49a8c4f"
             ]
         ]
     },
@@ -6096,40 +6094,13 @@
         ]
     },
     {
-        "id": "f34b678cba1b8031",
-        "type": "change",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "msg.topic",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "buttonPressed",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1480,
-        "y": 1340,
-        "wires": [
-            [
-                "7a9653f07c6c21e1"
-            ]
-        ]
-    },
-    {
         "id": "76b12a24a9f10330",
         "type": "comment",
         "z": "8d2fa3bfaacbccf6",
         "name": "Gestion Andon par poste",
         "info": "Chaque ligne représente le gestion d'un poste \n - Même si on a filtré le signal, on doit limité à 1ms/s pour éviter les spams\n - Si le poste est à l'état IsEnable, on envoi le signale dans la machine à états \n    Fonctionnement machine à états :\n        On gère un ou plusieurs \"états\" selon des informations en entré du node :\n            Dans notre cas, on a 4 états:\n                off_lev1 => état par défaut + état si appui alors que le status est lev1\n                lev1 => premier niveau d'aide après appui btn\n                lev2 => deuxième niveau d 'aide si le taktTime est atteint\n                off_lev2 => état si appui btn alors que le status est lev2  \nNB : Le taktTime est une variable renseigné par l'utilisateur qui détermine à partir de combien de temps un andon passe du niveau 1 au niveau 2 une fois qu il est activé\n - Selon la sortie de la machine à états, on enregistre dans le \"GLOBAL\" le status et on lance le timer via une fonction en Javascript",
-        "x": 1930,
-        "y": 1140,
+        "x": 1910,
+        "y": 1040,
         "wires": []
     },
     {
@@ -6212,8 +6183,8 @@
             "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2625,
-        "y": 1280,
+        "x": 2305,
+        "y": 1180,
         "wires": []
     },
     {
@@ -6317,6 +6288,7 @@
         "name": "Any postes[index].isLearning ?",
         "func": "var postes = global.get('postes') || []\nmsg.isLearning = false\nfor (let index = 0; index < postes.length; index++) {\n    if (postes[index].isLearning) {\n        msg.isLearning = true\n    }\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6349,23 +6321,6 @@
         "wires": [
             [
                 "d948b9709da715a8"
-            ]
-        ]
-    },
-    {
-        "id": "4092f882e1d274a3",
-        "type": "link in",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "off-1 out",
-        "links": [
-            "ae37488617b90d19",
-            "f445ac392e4e0b48"
-        ],
-        "x": 2065,
-        "y": 1200,
-        "wires": [
-            [
-                "8962054b21289cd5"
             ]
         ]
     },
@@ -6799,17 +6754,6 @@
         ]
     },
     {
-        "id": "2baa941dca8d6d5b",
-        "type": "subflow:24a3f1937fe18a9a",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "",
-        "x": 3030,
-        "y": 1280,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ea580bbb65fc5f4e",
         "type": "link in",
         "z": "8d2fa3bfaacbccf6",
@@ -6821,30 +6765,17 @@
             "6da5cc9221a34e86",
             "69138c48be2660c3",
             "96bc8375df50ead2",
-            "b5270999b4644ed3"
+            "b5270999b4644ed3",
+            "c3b5069e770c4b55",
+            "c2d5bc1c3dfcec46",
+            "8f4433c5bd74f039",
+            "a4f0032ed770a554"
         ],
-        "x": 2865,
-        "y": 1280,
+        "x": 2575,
+        "y": 1440,
         "wires": [
             [
-                "2baa941dca8d6d5b"
-            ]
-        ]
-    },
-    {
-        "id": "8962054b21289cd5",
-        "type": "finite-state-machine",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "",
-        "fsmDefinition": "{\"state\":{\"status\":\"off\"},\"transitions\":{\"off\":{\"buttonPressed\":\"on\"},\"on\":{\"buttonPressed\":\"off\"}}}",
-        "sendInitialState": false,
-        "sendStateWithoutChange": false,
-        "showTransitionErrors": true,
-        "x": 2170,
-        "y": 1280,
-        "wires": [
-            [
-                "b47b49244d6b9335"
+                "6844115c8ca14b6c"
             ]
         ]
     },
@@ -6856,10 +6787,10 @@
         "rules": [
             {
                 "t": "set",
-                "p": "postes[0].status",
-                "pt": "global",
-                "to": "payload.status",
-                "tot": "msg"
+                "p": "title",
+                "pt": "msg",
+                "to": "postes[0].name",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -6867,8 +6798,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2420,
-        "y": 1280,
+        "x": 2100,
+        "y": 1180,
         "wires": [
             [
                 "69138c48be2660c3"
@@ -6882,45 +6813,11 @@
         "name": "Alert1",
         "mode": "link",
         "links": [
-            "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2625,
-        "y": 1420,
+        "x": 2305,
+        "y": 1260,
         "wires": []
-    },
-    {
-        "id": "6a10410dc781e504",
-        "type": "link in",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "off-2 out",
-        "links": [
-            "e5acf3edad77f9d5"
-        ],
-        "x": 2065,
-        "y": 1340,
-        "wires": [
-            [
-                "79380bff74a4fc8a"
-            ]
-        ]
-    },
-    {
-        "id": "79380bff74a4fc8a",
-        "type": "finite-state-machine",
-        "z": "8d2fa3bfaacbccf6",
-        "name": "",
-        "fsmDefinition": "{\"state\":{\"status\":\"off\"},\"transitions\":{\"off\":{\"buttonPressed\":\"on\"},\"on\":{\"buttonPressed\":\"off\"}}}",
-        "sendInitialState": false,
-        "sendStateWithoutChange": false,
-        "showTransitionErrors": true,
-        "x": 2170,
-        "y": 1420,
-        "wires": [
-            [
-                "65d2037eaddff8a3"
-            ]
-        ]
     },
     {
         "id": "65d2037eaddff8a3",
@@ -6930,10 +6827,10 @@
         "rules": [
             {
                 "t": "set",
-                "p": "postes[1].status",
-                "pt": "global",
-                "to": "payload.status",
-                "tot": "msg"
+                "p": "title",
+                "pt": "msg",
+                "to": "postes[1].name",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -6941,8 +6838,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2420,
-        "y": 1420,
+        "x": 2100,
+        "y": 1260,
         "wires": [
             [
                 "96bc8375df50ead2"
@@ -6950,7 +6847,131 @@
         ]
     },
     {
-        "id": "b5270999b4644ed3",
+        "id": "6844115c8ca14b6c",
+        "type": "moment",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "date",
+        "inTz": "Europe/Paris",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "DD-MM-YYYY HH:mm:ss",
+        "locale": "fr-FR",
+        "output": "mytime",
+        "outputType": "msg",
+        "outTz": "Europe/Paris",
+        "x": 2780,
+        "y": 1440,
+        "wires": [
+            [
+                "41b82d362304fd47"
+            ]
+        ]
+    },
+    {
+        "id": "41b82d362304fd47",
+        "type": "function",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "poste.logs",
+        "func": "const moment = global.get('moment')\nvar postes = global.get(\"postes\") || []\nvar date = new Date()\nvar currentDateUTC = moment(date)\npostes.forEach(function (poste) {\n    if (poste && msg.title === poste.name) {\n    node.warn(msg.title)\n    node.warn(poste.name)\n        if (!poste.logs) {\n            poste.logs = []\n        }\n        poste.logs.push({\n            \"date\": currentDateUTC,\n            \"id\": poste.logs.length + 1\n        });\n    }\n});\nglobal.set(\"postes\", postes)\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3010,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d66973f04d5c0f3",
+        "type": "change",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "title",
+                "pt": "msg",
+                "to": "postes[2].name",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2100,
+        "y": 1340,
+        "wires": [
+            [
+                "c3b5069e770c4b55"
+            ]
+        ]
+    },
+    {
+        "id": "10f3a9dcd57b7e83",
+        "type": "change",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "title",
+                "pt": "msg",
+                "to": "postes[3].name",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2100,
+        "y": 1420,
+        "wires": [
+            [
+                "c2d5bc1c3dfcec46"
+            ]
+        ]
+    },
+    {
+        "id": "204e8bf8a6c39767",
+        "type": "change",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "title",
+                "pt": "msg",
+                "to": "postes[4].name",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2100,
+        "y": 1500,
+        "wires": [
+            [
+                "8f4433c5bd74f039"
+            ]
+        ]
+    },
+    {
+        "id": "c3b5069e770c4b55",
         "type": "link out",
         "z": "8d2fa3bfaacbccf6",
         "name": "Alert1",
@@ -6959,55 +6980,50 @@
             "4e05d945f9c84f91",
             "ea580bbb65fc5f4e"
         ],
-        "x": 2625,
-        "y": 1560,
+        "x": 2305,
+        "y": 1340,
         "wires": []
     },
     {
-        "id": "f860a2eeef901c80",
-        "type": "link in",
+        "id": "c2d5bc1c3dfcec46",
+        "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "name": "off-3 out",
+        "name": "Alert1",
+        "mode": "link",
         "links": [
-            "aed0cb8bd02dc339"
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
         ],
-        "x": 2065,
-        "y": 1480,
-        "wires": [
-            [
-                "e9c562cc374fd619"
-            ]
-        ]
+        "x": 2305,
+        "y": 1420,
+        "wires": []
     },
     {
-        "id": "e9c562cc374fd619",
-        "type": "finite-state-machine",
+        "id": "8f4433c5bd74f039",
+        "type": "link out",
         "z": "8d2fa3bfaacbccf6",
-        "name": "",
-        "fsmDefinition": "{\"state\":{\"status\":\"off\"},\"transitions\":{\"off\":{\"buttonPressed\":\"on\"},\"on\":{\"buttonPressed\":\"off\"}}}",
-        "sendInitialState": false,
-        "sendStateWithoutChange": false,
-        "showTransitionErrors": true,
-        "x": 2170,
-        "y": 1560,
-        "wires": [
-            [
-                "c40f7d52269df44c"
-            ]
-        ]
+        "name": "Alert1",
+        "mode": "link",
+        "links": [
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
+        ],
+        "x": 2305,
+        "y": 1500,
+        "wires": []
     },
     {
-        "id": "c40f7d52269df44c",
+        "id": "e43f7d0cb49a8c4f",
         "type": "change",
         "z": "8d2fa3bfaacbccf6",
         "name": "",
         "rules": [
             {
                 "t": "set",
-                "p": "postes[2].status",
-                "pt": "global",
-                "to": "payload.status",
-                "tot": "msg"
+                "p": "title",
+                "pt": "msg",
+                "to": "postes[5].name",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -7015,19 +7031,32 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2420,
-        "y": 1560,
+        "x": 2100,
+        "y": 1580,
         "wires": [
             [
-                "b5270999b4644ed3"
+                "a4f0032ed770a554"
             ]
         ]
+    },
+    {
+        "id": "a4f0032ed770a554",
+        "type": "link out",
+        "z": "8d2fa3bfaacbccf6",
+        "name": "Alert1",
+        "mode": "link",
+        "links": [
+            "4e05d945f9c84f91",
+            "ea580bbb65fc5f4e"
+        ],
+        "x": 2305,
+        "y": 1580,
+        "wires": []
     },
     {
         "id": "631a757bc6a71a93",
         "type": "inject",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "TEST CSV",
         "props": [
             {
@@ -7045,7 +7074,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 260,
+        "x": 180,
         "y": 540,
         "wires": [
             [
@@ -7057,10 +7086,9 @@
         "id": "b26b2b92b0be3bea",
         "type": "comment",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "Mail timer logic",
         "info": "A user can send an email on a specifique date ( day + HH:MM:SS):\n    - Dashboard's inputs set globalvalues mytime and myday\n    - Inject's node initialise current time every specifique\n    - Compare current time and global values myday and mytitme\n    - depending on each global.mail.x.isEnable's values, we send overview.csv to mail.x email",
-        "x": 300,
+        "x": 220,
         "y": 280,
         "wires": []
     },
@@ -7068,12 +7096,11 @@
         "id": "1cb6b9cda6ceac39",
         "type": "link in",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "ui-send-excel-out",
         "links": [
             "7b7f017470e139ec"
         ],
-        "x": 195,
+        "x": 115,
         "y": 420,
         "wires": [
             [
@@ -7086,7 +7113,6 @@
         "id": "015436d1df1d0742",
         "type": "e-mail",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "server": "smtp.gmail.com",
         "port": "465",
         "authtype": "BASIC",
@@ -7096,7 +7122,7 @@
         "tls": true,
         "name": "",
         "dname": "",
-        "x": 1150,
+        "x": 1070,
         "y": 420,
         "wires": []
     },
@@ -7104,7 +7130,6 @@
         "id": "5deedb0630424419",
         "type": "function",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "Configuration mail",
         "func": "var mail = global.get('mail') || \"\";\nvar nomligne = global.get('line_name')\nmsg = {\n    to: mail,\n    topic: \"Fichiers andon\",\n    payload: \" Voici le fichier résumé des cycles de la ligne: \"+nomligne+\".\" ,\n    attachments: [\n        {\n            filename: 'time.xlsx',\n            path: '/home/robotic/.node-red/csv/time.xlsx'\n        }\n    ]\n\n}\nreturn msg;",
         "outputs": 1,
@@ -7112,7 +7137,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 950,
+        "x": 870,
         "y": 420,
         "wires": [
             [
@@ -7125,12 +7150,11 @@
         "id": "aadf1d998a58d891",
         "type": "change",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "",
         "rules": [
             {
                 "t": "set",
-                "p": "log",
+                "p": "postes",
                 "pt": "msg",
                 "to": "postes",
                 "tot": "global"
@@ -7141,11 +7165,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
+        "x": 430,
         "y": 540,
         "wires": [
             [
-                "6b4563d4c04f7c22"
+                "d68bb8b409fef4e4"
             ]
         ]
     },
@@ -7153,14 +7177,14 @@
         "id": "2ebc29cd7da8c357",
         "type": "file",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "",
-        "filename": "/home/robotic/.node-red/csv/time.csv",
+        "filename": "/home/rd-robotic01/.node-red/csv/time.csv",
+        "filenameType": "str",
         "appendNewline": false,
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1170,
+        "x": 1140,
         "y": 540,
         "wires": [
             [
@@ -7172,7 +7196,6 @@
         "id": "6f8c645649f81cf3",
         "type": "csv",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "",
         "sep": ",",
         "hdrin": true,
@@ -7184,7 +7207,7 @@
         "strings": true,
         "include_empty_strings": "",
         "include_null_values": "",
-        "x": 930,
+        "x": 870,
         "y": 540,
         "wires": [
             [
@@ -7193,31 +7216,10 @@
         ]
     },
     {
-        "id": "6b4563d4c04f7c22",
-        "type": "function",
-        "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
-        "name": "config logs duration",
-        "func": "let output = []\nfor (let i = 0; i < msg.log.length - 1; i++) {\n    let poste = msg.log[i];\n    if (poste && poste.logs) {\n        let nextPoste = msg.log[i + 1];\n        let log_array = [poste.name];\n        for (let j = 0; j < poste.logs.length; j++) {\n            let log = poste.logs[j];\n            let nextLog = nextPoste && nextPoste.logs && nextPoste.logs[j] ? nextPoste.logs[j] : null;\n            if (nextLog) {\n                let duration = new Date(nextLog.date).getTime() - new Date(log.date).getTime();\n                let sec = duration % 60;\n                duration = (duration - sec) / 60;\n                sec = sec < 10 ? \"0\" + sec : sec;\n                let min = duration % 60;\n                duration = (duration - min) / 60;\n                min = min < 10 ? \"0\" + min : min;\n                let hour = duration < 10 ? \"0\" + duration : duration;\n                let totalTime = \"\"\n                totalTime += hour + \":\" + min + \":\" + sec;\n\n                log_array.push(totalTime);\n            }\n        }\n        output.push(log_array);\n    }\n}\n\nmsg.payload = output;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 540,
-        "wires": [
-            [
-                "6f8c645649f81cf3"
-            ]
-        ]
-    },
-    {
         "id": "004897656b70dfc6",
         "type": "exec",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
-        "command": "ssconvert .node-red/csv/time.csv .node-red/csv/time.xlsx",
+        "command": "ssconvert /home/rd-robotic01/.node-red/csv/time.csv /home/rd-robotic01/.node-red/csv/time.xlsx",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -7225,19 +7227,24 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 690,
+        "x": 730,
         "y": 680,
         "wires": [
-            [],
-            [],
-            []
+            [
+                "f0353ee0fa84a396"
+            ],
+            [
+                "f0353ee0fa84a396"
+            ],
+            [
+                "f0353ee0fa84a396"
+            ]
         ]
     },
     {
         "id": "37285c719a615c57",
         "type": "change",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "",
         "rules": [
             {
@@ -7253,7 +7260,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 700,
+        "x": 620,
         "y": 420,
         "wires": [
             [
@@ -7265,7 +7272,6 @@
         "id": "d36eee43e3601f22",
         "type": "delay",
         "z": "62319ca4c703e31b",
-        "g": "1ddeb4c12d9f08f2",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -7279,11 +7285,48 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 460,
+        "x": 380,
         "y": 420,
         "wires": [
             [
                 "37285c719a615c57"
+            ]
+        ]
+    },
+    {
+        "id": "f0353ee0fa84a396",
+        "type": "debug",
+        "z": "62319ca4c703e31b",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d68bb8b409fef4e4",
+        "type": "function",
+        "z": "62319ca4c703e31b",
+        "name": "config logs duration",
+        "func": "let output = [];\nlet nextPoste = {}\nvar length = msg.postes.length\n\nfor (let index = 0; index < length; index++) {\n    let poste = msg.postes[index];\n    nextPoste = msg.postes[index + 1];\n    if (index === length - 1) {\n        nextPoste = msg.postes[length - 1]\n    }\n    let log_array = [poste.name];\n    for (let j = 0; j < poste.logs.length; j++) {\n        let log = poste.logs[j];\n        let nextLog = nextPoste && nextPoste.logs && nextPoste.logs[j] ? nextPoste.logs[j] : null;\n        if (nextLog) {\n            let durationInSeconds = (new Date(nextLog.date).getTime() - new Date(log.date).getTime()) / 1000; // Convert to seconds\n            let hours = Math.floor(durationInSeconds / 3600);\n            let minutes = Math.floor((durationInSeconds % 3600) / 60);\n            let seconds = Math.floor(durationInSeconds % 60);\n\n            // Formatting with leading zeros\n            let formattedDuration = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;\n            log_array.push(formattedDuration);\n        }\n    }\n    output.push(log_array);\n}\noutput.pop()\nmsg.payload = output;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 540,
+        "wires": [
+            [
+                "6f8c645649f81cf3"
             ]
         ]
     },
