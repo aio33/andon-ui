@@ -29,12 +29,11 @@
                     <button class="btn btn-primary" @click="sendLineName()">SUBMIT</button>
                 </div>
             </div>
-            <div class="lineName-container">
-                <h1>TAKT TIME</h1>
-                <input type="number" class="form-control" required min="0" value="0" step=".01" v-model="takTime"
-                    :disabled="shouldDisableTakTime">
+            <div class="lineName-container custom-width">
+                <h1>Send Excel</h1>
+                <b-form-input id="mail" v-model="mail" :placeholder="mail"></b-form-input>
                 <div class="submit-container">
-                    <button class="btn btn-primary" @click="sendTakTime()" :disabled="shouldDisableTakTime">SUBMIT</button>
+                    <button class="btn btn-primary" @click="sendExcel()">SUBMIT</button>
                 </div>
             </div>
             <div class="lineName-container ">
@@ -73,13 +72,7 @@
                 </div>
             </div>
         </div>
-        <div class="lineName-container custom-width">
-            <h1>Send Excel</h1>
-            <b-form-input id="mail" v-model="mail" :placeholder="mail"></b-form-input>
-            <div class="submit-container">
-                <button class="btn btn-primary" @click="sendExcel()">SUBMIT</button>
-            </div>
-        </div>
+
     </div>
 </template>
 <style scoped>
@@ -377,15 +370,6 @@ module.exports = {
         });
     },
     computed: {
-        shouldDisableTakTime() {
-            this.mustDisable = false
-            this.postes.forEach(poste => {
-                if (poste.status === "level1" || poste.status === "level2") {
-                    this.mustDisable = true
-                }
-            });
-            return this.mustDisable
-        }
     },
     methods: {
         shouldDisableLearnButton(index) {
@@ -419,14 +403,6 @@ module.exports = {
                 'topic': 'setLineName',
                 'payload': {
                     'lineName': this.lineName
-                }
-            })
-        },
-        sendTakTime() {
-            uibuilder.send({
-                'topic': 'setTakTime',
-                'payload': {
-                    'takTime': parseFloat(this.takTime)
                 }
             })
         },
